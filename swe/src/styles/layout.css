@@ -1,0 +1,95 @@
+/*-----------------------GENERAL CSS------------------------*/
+.body {
+  padding-left: 120px;
+  padding-top: 150px;
+}
+
+/*-----------------------LANDING CSS------------------------*/
+.front_image {
+  position: absolute;
+  width: 720px;
+  height: 423px;
+}
+
+.big_heading {
+  position: absolute;
+  width: 572px;
+  height: 450px;
+  left: 860px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 100px;
+  line-height: 110px;
+
+  color: #2f3136;
+}
+
+.subtitle {
+  position: absolute;
+  width: 510px;
+  height: 90px;
+  left: 860px;
+  top: 490px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.arrow {
+  position: absolute;
+  width: 50px;
+  height: 60px;
+  left: 695px;
+  top: 615px;
+}
+
+.next_header {
+  position: absolute;
+  width: 968px;
+  height: 85px;
+  left: 235px;
+  top: 640px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 80px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.pics {
+  position: absolute;
+  width: 333px;
+  height: 333px;
+  left: 120px;
+  top: 820px;
+}
+
+.pic_buttons {
+  left: 120px;
+  top: 2000px;
+  background-color: #2f3136;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  width: 80%;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pic_button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
