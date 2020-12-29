@@ -106,9 +106,10 @@
 
 .officer_grid {
   display: grid;
+  padding-right: 40px;
   grid-template-columns: auto auto auto auto auto auto;
   grid-row-gap: 20px;
-  grid-column-gap: 2px;
+  grid-column-gap: 10px;
 }
 
 .officer_img {
