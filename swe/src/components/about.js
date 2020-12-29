@@ -83,12 +83,12 @@ export default class about extends React.Component {
                     <img src={arrowhead} style={{paddingLeft:140, height: 30, width: 50}}/>
                 </div>
                 <div>
-                    <p className="next_header" style={{fontSize:34, top:800, left: -165}}>Meet Our Board Members</p>
+                    <p className="next_header" style={{fontSize:34, top:810, left: -165}}>Meet Our Board Members</p>
                 </div>
-                <div className="officer_grid" style={{paddingTop: 100, left: 120}}>{this.state.cards.map(this.renderCards)}</div>
+                <div className="officer_grid" style={{paddingTop: 140, left: 120}}>{this.state.cards.map(this.renderCards)}</div>
                 <div>
                     <p className="next_header" style={{fontSize:34, top:2120, left: -230}}>Join SWE National</p>
-                    <img style={{left:-230, paddingTop: 150, height:400, width:630}} src={join}/>
+                    <img style={{paddingLeft:-230, paddingTop: 100, height:400, width:630}} src={join}/>
                     <p className="subtitle" style={{left:280, top: 2660, width: 400, paddingBottom: 120, lineHeight:1.4}}>National members get discounts, special opportunities, and scholarships. Join today!</p>
                     <div>
                         <img className="numbers" src={numbers}/>
