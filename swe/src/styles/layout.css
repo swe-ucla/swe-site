@@ -93,3 +93,32 @@
   cursor: pointer;
   transform: scale(1.1);
 }
+
+/*-----------------------ABOUT US CSS------------------------*/
+
+.blob {
+  position: absolute;
+  top: 130px;
+  width: 540px;
+  height: 500px;
+  left: 0px;
+}
+
+.officer_grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-row-gap: 30px;
+  grid-column-gap: 10px;
+}
+
+.officer_img {
+  flex: 1;
+}
+
+.card_info {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  width: 160px;
+}
