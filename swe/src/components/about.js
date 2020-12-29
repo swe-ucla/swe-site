@@ -1,9 +1,12 @@
 import React from "react";
 import "../styles/layout.css";
+import ReactMarkdown from 'react-markdown'
 import ilooklikeanengineer from "../images/ilooklikeanengineer.png";
 import blob from "../images/blue-blob.png";
 import dotted from "../images/dotted-line.png";
 import arrowhead from "../images/arrowhead.png";
+import join from "../images/joinswenational.png";
+import numbers from "../images/123.png";
 
 import isabel from "../images/officers/image 39.png";
 import sharvani from "../images/officers/image 40.png";
@@ -85,6 +88,35 @@ export default class about extends React.Component {
                 <div className="officer_grid" style={{paddingTop: 100, left: 120}}>{this.state.cards.map(this.renderCards)}</div>
                 <div>
                     <p className="next_header" style={{fontSize:34, top:2250, left: -230}}>Join SWE National</p>
+                    <img style={{left:-230, paddingTop: 150, height:400, width:630}} src={join}/>
+                    <p className="subtitle" style={{left:220, top: 2790, width: 400, paddingBottom: 120, lineHeight:1.4}}>National members get discounts, special opportunities, and scholarships. Join today!</p>
+                    <div>
+                        <img className="numbers" src={numbers}/>
+                        <div className="national">
+                            <p > Go to the national SWE website </p>
+                            <a href="www.swe.org" style={{fontWeight:"normal"}}>www.swe.org </a> 
+                            <p style={{fontWeight:"normal"}}> Hover on Membership 
+                                <p>Click Join/Renew </p>
+                             </p>
+                        </div>
+                        <div className="national" style={{top:2505}}>
+                            <p> Choose a package {"\n"}
+                             <p style={{fontWeight:"normal"}}> New Collegiate Membership in SWE: $20 (1 year membership) 
+                                <p>Collegiate to Career Membership in SWE: $50 (Entire collegiate career membership!)</p>
+                             </p>
+                            </p>
+                        </div>
+                        <div className="national" style={{top:2665}}>
+                            <p> Confirm your registration {"\n"}
+                             <p style={{fontWeight:"normal"}}> 
+                                Confirm your registration with our SWE secretary. 
+                                <p>
+                                Email the SWE Secretary at secretary.swe.ucla@gmail.com to confirm your registration (please attach a copy of your receipt)
+                                </p>
+                             </p>
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         )

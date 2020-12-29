@@ -122,3 +122,27 @@
   font-size: 18px;
   width: 160px;
 }
+
+.numbers {
+  position: absolute;
+  width: 100px;
+  height: 400px;
+  left: 800px;
+  top: 2350px;
+}
+
+.national {
+  position: absolute;
+  width: 366px;
+  height: 120px;
+  left: 940px;
+  top: 2350px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 21px;
+
+  color: #000000;
+}
