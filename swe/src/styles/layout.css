@@ -107,8 +107,8 @@
 .officer_grid {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
-  grid-row-gap: 30px;
-  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  grid-column-gap: 2px;
 }
 
 .officer_img {
@@ -121,6 +121,7 @@
   font-weight: normal;
   font-size: 18px;
   width: 160px;
+  line-height: 20px;
 }
 
 .numbers {
@@ -128,7 +129,7 @@
   width: 100px;
   height: 400px;
   left: 800px;
-  top: 2350px;
+  top: 2235px;
 }
 
 .national {
@@ -136,7 +137,7 @@
   width: 366px;
   height: 120px;
   left: 940px;
-  top: 2350px;
+  top: 2240px;
 
   font-family: Mulish;
   font-style: normal;
