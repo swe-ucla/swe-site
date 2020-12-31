@@ -15,3 +15,4 @@
 ```
 npm i react-router-dom
 npm install react-markdown
+npm i dotenv react-mailchimp-subscribe
