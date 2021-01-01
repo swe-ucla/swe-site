@@ -55,7 +55,7 @@ export default class about extends React.Component {
     renderCards = (card, index) => {
         return(
             <div className="officer_img"> 
-                <img style={{height: 170, width: 140, padding:0}} src={card.image}/>
+                <img style={{height: 200, width: 160, padding:0}} src={card.image}/>
                 <p className="card_info" style={{fontWeight: "bold"}}>{card.names}</p>
                 <p className="card_info" style={{width: 147}}>{card.position}</p>
                 <p className="card_info" style={{fontSize:14}}>{card.info}</p>
@@ -78,18 +78,15 @@ export default class about extends React.Component {
                 </div>
                 <div>
                     <img src={dotted} style={{height:240, width: 550, paddingTop: 390, paddingLeft: 160}}/>
-                </div>
-                <div>
-                    <img src={arrowhead} style={{paddingLeft:140, height: 30, width: 50}}/>
-                </div>
-                <div>
+                    <img src={arrowhead} style={{position:"absolute",left:260, height: 30, width: 50, top: 785}}/>
                     <p className="next_header" style={{fontSize:34, top:810, left: -165}}>Meet Our Board Members</p>
+                    <div className="officer_grid" style={{paddingTop: 150, left: 120}}>{this.state.cards.map(this.renderCards)}</div>
                 </div>
-                <div className="officer_grid" style={{paddingTop: 140, left: 120}}>{this.state.cards.map(this.renderCards)}</div>
+
                 <div>
-                    <p className="next_header" style={{fontSize:34, top:2120, left: -230}}>Join SWE National</p>
-                    <img style={{paddingLeft:-230, paddingTop: 100, height:400, width:630}} src={join}/>
-                    <p className="subtitle" style={{left:280, top: 2660, width: 400, paddingBottom: 120, lineHeight:1.4}}>National members get discounts, special opportunities, and scholarships. Join today!</p>
+                    <p className="next_header" style={{fontSize:34, top:2185, left: -230}}>Join SWE National</p>
+                    <img style={{position:"absolute", top: 2300, left: 100, height:400, width:630}} src={join}/>
+                    <p className="subtitle" style={{left:280, top: 2720, width: 400, paddingBottom: 120, lineHeight:1.4}}>National members get discounts, special opportunities, and scholarships. Join today!</p>
                     <div>
                         <img className="numbers" src={numbers}/>
                         <div className="national">
@@ -99,14 +96,14 @@ export default class about extends React.Component {
                                 <p>Click Join/Renew </p>
                              </p>
                         </div>
-                        <div className="national" style={{top:2395}}>
+                        <div className="national" style={{top:2435}}>
                             <p> Choose a package {"\n"}
                              <p style={{fontWeight:"normal"}}> New Collegiate Membership in SWE: $20 (1 year membership) 
                                 <p>Collegiate to Career Membership in SWE: $50 (Entire collegiate career membership!)</p>
                              </p>
                             </p>
                         </div>
-                        <div className="national" style={{top:2555}}>
+                        <div className="national" style={{top:2595}}>
                             <p> Confirm your registration {"\n"}
                              <p style={{fontWeight:"normal"}}> 
                                 Confirm your registration with our SWE secretary. 
