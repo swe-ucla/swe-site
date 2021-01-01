@@ -16,3 +16,7 @@
 npm i react-router-dom
 npm install react-markdown
 npm install react-mailchimp-form
+```
+
+## Useful Resources
+https://github.com/gndx/react-mailchimp-form
