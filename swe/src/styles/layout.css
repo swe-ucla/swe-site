@@ -217,3 +217,10 @@
   width: 590px;
   height: 400px;
 }
+
+.mailchimp {
+  position: absolute;
+  top: 1700px;
+  left: 840px;
+  font-family: Mulish;
+}

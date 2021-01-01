@@ -1,4 +1,5 @@
 import React from "react";
+import Mailchimp from "react-mailchimp-form";
 import "../styles/layout.css";
 import frontimage from "../images/frontimage.png";
 import arrow from "../images/arrow.png";
@@ -72,10 +73,26 @@ export default class landing extends React.Component {
 				<div className="body">
 					<div style={{position: "absolute",fontSize:34, top:1530, left: 840, fontWeight:"bold"}}> Join Our Mailing List</div>
 					<div style= {{top:1610, lineHeight:1.4, width:550, position:"absolute", left:840, fontSize:19}}>Never miss out on SWE events, announcements, and job/internship opportunities! </div>
-					<img src={loop} style={{position:"absolute",left:760, height: 330, width: 300, top: 1620}}/>
-					<img src={plane} style={{position:"absolute",left:1050, height: 200, width: 200, top: 1780}}/>
+					<img src={loop} style={{position:"absolute",left:760, height: 280, width: 300, top: 1620}}/>
+					<img src={plane} style={{position:"absolute",left:1040, height: 200, width: 200, top: 1745}}/>
 					<div className="mailchimp">
-
+						<Mailchimp style={{borderStyle:"solid"}}action='https://ucla.us16.list-manage.com/subscribe/post?u=577d9373840e4ffe2e76d32e1;id=e94638c22e'
+    						fields={[{
+            					name: 'EMAIL',
+            					placeholder: 'christina@email.com',
+            					type: 'email',
+								required: true,
+							  }]}
+							  
+							  messages = {{
+								  sending: "Sending...",
+								  success: "Thank you for subscribing!",
+								  error: "An unexpected internal error has occurred.",
+								  empty: "You must write an e-mail.",
+								  duplicate: "Too many subscribe attempts for this email address",
+								  button: "Subscribe"
+								}}
+        				/>
 					</div>
 				</div>
             </div>
