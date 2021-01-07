@@ -2,6 +2,11 @@ import React from "react";
 import "../styles/layout.css";
 
 import committee from "../images/committee-pictures.png";
+import adv from "../images/advocacy.jpg";
+import ewi from "../images/ewi-comm.JPG";
+import int from "../images/int.jpg";
+import mentorship from "../images/mentorship.jpg";
+import wesp from "../images/wesp.jpg";
 import blob from "../images/family-blob.png";
 import family from "../images/family-image.png";
 import blueCircle from "../images/bluecircle.png";
@@ -14,7 +19,7 @@ import dot from "../images/dot-line.png";
 import fb from "../images/foot-fb.png";
 import insta from "../images/foot-insta.png";
 import twitter from "../images/foot-twitter.png";
-import dev from "../images/dev-team.JPG";
+import dev from "../images/dev.jpg";
 
 export default class involved extends React.Component {
     advocacyHandler = () => {
@@ -69,7 +74,7 @@ export default class involved extends React.Component {
       return (
         <div className="body">
             <p className="next_header" style={{top: 120, left: 0, paddingLeft: 320, paddingRight: 320, fontSize:45, lineHeight:1.3, width:800}}>
-                Get involved by joining our mentorship program or a committee!
+                Get involved by joining a SWE family or a committee!
             </p>
 
             <img src={blueCircle} style={{position:"absolute", left:1280, top:600, width:80, height:80}}/>
@@ -80,7 +85,7 @@ export default class involved extends React.Component {
             <img src={greyCircle} style={{position:"absolute", left:630, top:720, width:55, height:55}}/>
 
             <div className="event_caption">
-                <div style={{position:"absolute",fontSize:38, fontWeight:"bold", paddingTop:150, width: 400, left: 140}}> SWE Committees </div>
+                <div style={{position:"absolute",fontSize:38, fontWeight:"bold", paddingTop:200, width: 400, left: 140}}> SWE Committees </div>
                 <button style={{position:"absolute", top:480, left:200}} className="form_button" onClick={() => {this.advocacyHandler()}}>Advocacy</button>
                 <button style={{position:"absolute", top:480, left:330, width: 200}} className="form_button" onClick={() => {this.ewiHandler()}}>Evening with Industry</button>
                 <button style={{position:"absolute", top:540, left:200, width: 140}} className="form_button" onClick={() => {this.internalHandler()}}>Internal Affairs</button>
@@ -93,35 +98,35 @@ export default class involved extends React.Component {
 
             <p style={{position:"absolute", fontWeight:"bold", left: 140, top:850, width:"100%"}}>ADVOCACY</p>
             <div className="committee_events">
-                <img src={committee} className="committee_event_pics"/>
+                <img src={adv} className="committee_event_pics"/>
                 <p style={{position:"absolute", left: 500, top:-30, width: 680}}>The Advocacy Committee advocates for a shift in mindset regarding STEM diversity within the UCLA community and beyond. We work towards promoting and inspiring engineers from underrepresented backgrounds to be empowered and break barriers within their field.</p>
                 <p style={{position:"absolute", left: 500, top:110, width: 680}}>The Engineers for Professional Inclusion Conference is SWE-UCLA’s flagship conference highlighting diversity across the engineering workforce, organized by the Advocacy Committee. This year, we are hoping to further embrace the intersectionality of individuals in STEM through hosting a keynote speaker and panel of professionals who will speak on their experiences in academia and the workforce.  </p>
             </div>
 
             <p style={{position:"absolute", fontWeight:"bold", left: 140, top:1300, width:"100%"}}>DEV TEAM</p>
             <div className="committee_events">
-                <img src={dev} className="committee_event_pics" style={{position:"absolute", left:40, top:450, width:370}}/>
-                <p style={{position:"absolute", left: 500, top:460, width: 680}}>Mission: Advocating for diversity and inclusion in STEM. The Advocacy Committee advocates for a shift in mindset regarding STEM diversity within the UCLA community and beyond. We work towards promoting and inspiring engineers from underrepresented backgrounds to be empowered and break barriers within their field. </p>
-                <p style={{position:"absolute", left: 500, top:630, width: 680}}>Events: EPEC, Member Interview Series, Mental Health Awareness Week, Mentorship Program, Lobbying with local Congressmen and Congresswomen</p>
+                <img src={dev} className="committee_event_pics" style={{position:"absolute", top:450}}/>
+                <p style={{position:"absolute", left: 500, top:480, width: 680}}>SWE's Dev Team works on redesigning and updating the SWE UCLA website, while also developing other projects to enhance our team's technical skills. This new website update was our big project for fall!</p>
+                <p style={{position:"absolute", left: 500, top:590, width: 680}}>We are currently working on developing a members and EWI portal for SWE members to keep track of their events and sign up for EWI and an interactive component for members to ask questions.</p>
             </div>
 
             <p style={{position:"absolute", fontWeight:"bold", left: 140, top:1750, width:"100%"}}>EVENING WITH INDUSTRY</p>
             <div className="committee_events">
-                <img src={committee} className="committee_event_pics" style={{position:"absolute", left:0, top:900}}/>
+                <img src={ewi} className="committee_event_pics" style={{position:"absolute", top:900, left:20, width: 400}}/>
                 <p style={{position:"absolute", left: 500, top:875, width: 680}}>Evening with Industry (EWI) is one of the largest student-run networking events at UCLA attracting around 40 companies and 300 students annually. The three part event includes a networking hour, dinner with a few company representatives, and a private career fair.</p>
                 <p style={{position:"absolute", left: 500, top:1010, width: 680}}>We’re excited to announce that this year’s 44th Evening with Industry will be entirely virtual! The committee will work together to create this virtual environment that fosters a casual conversation between students and companies. Additionally, the committee will plan and host professional development workshops to help UCLA engineering students put their best foot forward!</p>
             </div>
 
             <p style={{position:"absolute", fontWeight:"bold", left: 140, top:2200, width:"100%"}}>INTERNAL AFFAIRS</p>
             <div className="committee_events">
-                <img src={committee} className="committee_event_pics" style={{position:"absolute", left:0, top:1350}}/>
-                <p style={{position:"absolute", left: 500, top:1360, width: 680}}>Mission: Advocating for diversity and inclusion in STEM. The Advocacy Committee advocates for a shift in mindset regarding STEM diversity within the UCLA community and beyond. We work towards promoting and inspiring engineers from underrepresented backgrounds to be empowered and break barriers within their field. </p>
-                <p style={{position:"absolute", left: 500, top:1530, width: 680}}>Events: EPEC, Member Interview Series, Mental Health Awareness Week, Mentorship Program, Lobbying with local Congressmen and Congresswomen</p>
+                <img src={int} className="committee_event_pics" style={{position:"absolute", left:0, top:1350}}/>
+                <p style={{position:"absolute", left: 500, top:1380, width: 680}}>The Internal Affairs Committee works to strengthen the bonds between SWE members by hosting various inter-committee and member socials and contributes to our growing community of empowerment.  </p>
+                <p style={{position:"absolute", left: 500, top:1490, width: 680}}>We plan SWE general events, including Dinner with Professors and LinkedIn headshots, as well as inter-committee social events, such as yoga socials, movie premiers, and paint nights.</p>
             </div>
 
             <p style={{position:"absolute", fontWeight:"bold", left: 140, top:2650, width:"100%"}}>MENTORSHIP</p>
             <div className="committee_events">
-                <img src={committee} className="committee_event_pics" style={{position:"absolute", left:0, top:1800}}/>
+                <img src={mentorship} className="committee_event_pics" style={{position:"absolute", left:0, top:1800}}/>
                 <p style={{position:"absolute", left: 500, top:1830, width: 680}}>The Mentorship Committtee coordinates a variety of mentorship programs and events with the goal of connecting SWE members with each other as well as professional mentors in academia and industry!</p>
                 <p style={{position:"absolute", left: 500, top:1940, width: 680}}>This year, we will have mentorship programs to connect SWE members with upperclassmen mentors, graduate student mentors, and industry mentors. We will also host several professional, career and networking events and panels. </p>
             </div>
@@ -135,7 +140,7 @@ export default class involved extends React.Component {
 
             <p style={{position:"absolute", fontWeight:"bold", left: 140, top:3550, width:"100%"}}>OUTREACH</p>
             <div className="committee_events">
-                <img src={committee} className="committee_event_pics" style={{position:"absolute", left:0, top:2700}}/>
+                <img src={wesp} className="committee_event_pics" style={{position:"absolute", left:0, top:2700}}/>
                 <p style={{position:"absolute", left: 500, top:2710, width: 680}}>The Outreach committee works to expand and improve diversity in engineering through working with students, ages ranging from elementary school to high school. Our goal is to empower underrepresented minorities in the engineering field.</p>
                 <p style={{position:"absolute", left: 500, top:2840, width: 680}}>Every year, we host our flagship event, WOW! That's Engineering Day. Additionally, we hold the Women in Engineering Stayover Program(WESP) where we host newly admitted female engineering students to show them all our school as to offer. We also have other smaller events throughout the year! </p>
             </div>
@@ -150,7 +155,7 @@ export default class involved extends React.Component {
 
             <div>
                 <img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:4800, paddingBottom:0}}/>
-                <img src={dot} style={{position:"absolute", left:120, top:4850, width:2, height:200, paddingBottom:100}}/>
+                <img src={dot} style={{position:"absolute", left:120, top:4850, width:2, height:200}}/>
                 <a href="#about-us" style={{position:"absolute", top:4840, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a>
                 <a href="#involved" style={{position:"absolute", top:4890, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a>
                 <a href="#events" style={{position:"absolute", top:4940, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a>

@@ -12,7 +12,20 @@ import fb from "../images/fb.png";
 import loop from "../images/loopdeloop.png";
 import plane from "../images/plane.png";
 
+import footer from "../images/footer.png";
+import dot from "../images/dot-line.png";
+
+import facebook from "../images/foot-fb.png";
+import insta from "../images/foot-insta.png";
+import twitter from "../images/foot-twitter.png";
+
 export default class landing extends React.Component {
+	tempHandler = () => {
+        window.scrollTo({
+            top: 0
+        })
+	}
+	
     render() {
       return (
         <div className="body">
@@ -38,7 +51,7 @@ export default class landing extends React.Component {
                     <p className="subtitle" style={{left: 120, top: 1200, width: 351, lineHeight:1.4}}>
                         Improve your professional and technical skills by attending our workshops and panels, and learn about how you can make an impact on diversity in engineering at UCLA and beyond.
                     </p>
-                    <a href = '#events' className="pic_buttons">Learn About Our Events</a>
+                    <a href = '#events' className="pic_buttons" onClick={() => {this.tempHandler()}}>Learn About Our Events</a>
                 </div>
                 <div>
                     <img className="pics" style={{left: 570, top: 837}} src={blue}/>
@@ -46,7 +59,7 @@ export default class landing extends React.Component {
                     <p className="subtitle" style={{left: 552, top: 1200, width: 351, lineHeight:1.4}}>
                         Get involved with SWE-UCLA by joining a committee, where you will develop important event planning, technical, and leadership skills while making life long friendships.
                     </p>
-                    <a href = "#involved" className="pic_buttons" style={{left:552}}>Learn About Our Committees</a>
+                    <a href = "#involved" className="pic_buttons" style={{left:552}} onClick={() => {this.tempHandler()}}>Learn About Our Committees</a>
                 </div>
                 <div>
                     <img className="pics" style={{left: 1003, top: 837}} src={blue}/>
@@ -54,7 +67,7 @@ export default class landing extends React.Component {
                     <p className="subtitle" style={{left: 985, top: 1200, width: 351, lineHeight:1.4}}>
                         Are you interested in sponsoring SWE-UCLA? Find out how you can help us achieve our goal to empower those pursuing engineering to reach their full potential.
                     </p>
-                    <a href = "#sponsors" className="pic_buttons" style={{left:985}}>Learn About Our Sponsorships</a>
+                    <a href = "#sponsors" className="pic_buttons" style={{left:985}} onClick={() => {this.tempHandler()}}>Learn About Our Sponsorships</a>
                 </div>
                 <div className="body">
 					<div className="event_caption">
@@ -75,9 +88,9 @@ export default class landing extends React.Component {
 					<div style= {{top:1610, lineHeight:1.4, width:550, position:"absolute", left:840, fontSize:19}}>Never miss out on SWE events, announcements, and job/internship opportunities! </div>
 					<img src={loop} style={{position:"absolute",left:760, height: 280, width: 300, top: 1620}}/>
 					<img src={plane} style={{position:"absolute",left:1040, height: 200, width: 200, top: 1745}}/>
-					<div className="mailchimp">
-						<Mailchimp style={{borderStyle:"solid"}}action='https://ucla.us16.list-manage.com/subscribe/post?u=577d9373840e4ffe2e76d32e1;id=e94638c22e'
-    						fields={[{
+					<div>
+						<Mailchimp className="mailchimp" action='https://ucla.us16.list-manage.com/subscribe/post?u=577d9373840e4ffe2e76d32e1;id=e94638c22e'
+							fields={[{
             					name: 'EMAIL',
             					placeholder: 'christina@email.com',
             					type: 'email',
@@ -92,9 +105,29 @@ export default class landing extends React.Component {
 								  duplicate: "Too many subscribe attempts for this email address",
 								  button: "Subscribe"
 								}}
+							
+							  styles = {{
+								  fontSize: 90,
+								  
+							  }}
         				/>
 					</div>
 				</div>
+				<div>
+                	<img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2050, bottom:0}}/> 
+                	<img src={dot} style={{position:"absolute", left:120, top:2100, width:2, height:200}}/> 
+                	<a href="#about-us" style={{position:"absolute", top:2090, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a> 
+                	<a href="#involved" style={{position:"absolute", top:2140, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a> 
+                	<a href="#events" style={{position:"absolute", top:2190, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a> 
+                	<a href="#sponsors" style={{position:"absolute", top:2240, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a> 
+                
+                	<a href = "https://www.facebook.com/uclaswe"><img src={facebook} style={{height:110, width: 105, top:2150, position:"absolute", left:500}}/></a> 
+            		 <a href = "https://www.instagram.com/swe_ucla/?hl=en"><img src={insta} style={{height:110, width: 105, top:2150, position:"absolute", left:650}}/></a> 
+               		 <a href = "https://twitter.com/swe_ucla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src={twitter} style={{height:110, width: 105, top:2150, position:"absolute", left:800}}/></a>
+
+                	<a href="#involved" style={{position:"absolute", top:2100, left:1050, width:200}} class="foot-button">Email us at swe@seas.ucla.edu</a>
+                	<a href="#involved" style={{position:"absolute", top:2200, left:1010, width:300}} class="foot-button">DM us on Facebook for quick inquiries</a>
+            	</div>
             </div>
         </div>
       )

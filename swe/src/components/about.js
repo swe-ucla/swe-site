@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/layout.css";
-import ReactMarkdown from 'react-markdown'
 import ilooklikeanengineer from "../images/ilooklikeanengineer.png";
 import blob from "../images/blue-blob.png";
 import dotted from "../images/dotted-line.png";
@@ -27,6 +26,13 @@ import rithika from "../images/officers/image 54.png";
 import kellyn from "../images/officers/image 55.png";
 import christina from "../images/officers/image 56.png";
 
+import footer from "../images/footer.png";
+import dot from "../images/dot-line.png";
+
+import facebook from "../images/foot-fb.png";
+import insta from "../images/foot-insta.png";
+import twitter from "../images/foot-twitter.png";
+
 export default class about extends React.Component {
     constructor(props) {
         super(props);
@@ -50,6 +56,12 @@ export default class about extends React.Component {
         {image: kellyn, names: "KELLY NGUYEN", position: "Treasurer", info: "Mechanical Engineering", year: "3rd Year"} ,
         {image: christina, names: "CHRISTINA TONG", position: "Webmaster", info: "Computer Science & Engineering" , year: "2nd Year"}]
       } 
+    }
+
+    tempHandler = () => {
+        window.scrollTo({
+            top: 0
+        })
     }
 
     renderCards = (card, index) => {
@@ -115,6 +127,21 @@ export default class about extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div>
+                	<img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2900, paddingBottom:0}}/> 
+                	<img src={dot} style={{position:"absolute", left:120, top:2950, width:2, height:200}}/> 
+                	<a href="#about-us" style={{position:"absolute", top:2940, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a> 
+                	<a href="#involved" style={{position:"absolute", top:2990, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a> 
+                	<a href="#events" style={{position:"absolute", top:3040, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a> 
+                	<a href="#sponsors" style={{position:"absolute", top:3090, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a> 
+                
+                	<a href = "https://www.facebook.com/uclaswe"><img src={facebook} style={{height:110, width: 105, top:3000, position:"absolute", left:500}}/></a> 
+            		 <a href = "https://www.instagram.com/swe_ucla/?hl=en"><img src={insta} style={{height:110, width: 105, top:3000, position:"absolute", left:650}}/></a> 
+               		 <a href = "https://twitter.com/swe_ucla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src={twitter} style={{height:110, width: 105, top:3000, position:"absolute", left:800}}/></a>
+
+                	<a href="#involved" style={{position:"absolute", top:2950, left:1050, width:200}} class="foot-button">Email us at swe@seas.ucla.edu</a>
+                	<a href="#involved" style={{position:"absolute", top:3050, left:1010, width:300}} class="foot-button">DM us on Facebook for quick inquiries</a>
+            	</div>
             </div>
         )
     }

@@ -48,7 +48,7 @@ export default class sponsors extends React.Component {
                 <img style={{position: "absolute", top: 365, left: 150, width: 616, height: 400}} src = {sponsor_im}/>
             </div>
             <div className="event_caption">
-                <div style={{paddingTop:200, width: 400, position:"absolute", fontSize:34, fontWeight:"bold", lineHeight:1.3, left:850}}> Interested in supporting SWE-UCLA?</div>
+                <div style={{top: 420, width: 400, position:"absolute", fontSize:34, fontWeight:"bold", lineHeight:1.3, left:850}}> Interested in supporting SWE-UCLA?</div>
                 <p className="subtitle" style={{height:90, top: 520, left:850, width:410}}>SWE would like to thank you for your interest in being the driving force for women to excel as both engineers and leaders. Your company can help us reach our goals through monetary support, donation, supplies, and volunteering.</p>
             </div>
             
@@ -75,7 +75,7 @@ export default class sponsors extends React.Component {
             
             <div>
                 <img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2800, paddingBottom:0}}/> 
-                <img src={dot} style={{position:"absolute", left:120, top:2850, width:2, height:200, paddingBottom:100}}/> 
+                <img src={dot} style={{position:"absolute", left:120, top:2850, width:2, height:200}}/> 
                 <a href="#about-us" style={{position:"absolute", top:2840, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a> 
                 <a href="#involved" style={{position:"absolute", top:2890, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a> 
                 <a href="#events" style={{position:"absolute", top:2940, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a> 

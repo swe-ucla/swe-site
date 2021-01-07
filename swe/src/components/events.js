@@ -8,8 +8,23 @@ import qwer from "../images/qwer.png";
 import ig from "../images/ig.png";
 import gear from "../images/gear.png";
 import wow from "../images/wow-gs.png";
+import epec from "../images/epec.png";
+import wesp from "../images/wesp2.png";
+
+import footer from "../images/footer.png";
+import dot from "../images/dot-line.png";
+
+import facebook from "../images/foot-fb.png";
+import insta from "../images/foot-insta.png";
+import twitter from "../images/foot-twitter.png";
 
 export default class events extends React.Component {
+    tempHandler = () => {
+        window.scrollTo({
+            top: 0
+        })
+    }
+
     render() {
       return (
           <div className="body">
@@ -37,13 +52,13 @@ export default class events extends React.Component {
                       <p style={{position:"absolute", left: 640, top:120, width: "100%"}}>Evening with Industry (EWI) is one of the largest student-run networking events at UCLA attracting around 40 companies and 300 students annually. The three part event includes a networking hour, dinner with a few company representatives, and a private career fair. We’re excited to announce that this year’s 44th Evening with Industry will be entirely virtual! </p>
                       <div className="calendarthing" style={{top:340, left: 640,  width:35, height: 5, backgroundColor:"#933DD7"}}></div>
                       <div className="calendarthing" style={{top:340, left:640, width:35, height:30}}>
-                         <p style={{fontSize:10, fontWeight:"bold", left:640, lineHeight:0, display:"flex", justifyContent:"center", color:"white"}}>TBD</p>
-                         <p style={{fontSize:10, fontWeight:"bold", left:640, lineHeight:0.7, display:"flex", justifyContent:"center", paddingTop:10}}>6 PM </p>
+                         <p style={{fontSize:10, fontWeight:"bold", left:640, lineHeight:0, display:"flex", justifyContent:"center", color:"white"}}>JAN 28</p>
+                         <p style={{fontSize:10, fontWeight:"bold", left:640, lineHeight:0.7, display:"flex", justifyContent:"center", paddingTop:10}}>5:30PM </p>
                       </div>
-                      <a href = "https://www.facebook.com/uclaswe"><img src={fb} style={{height:50, width: 50, position:"absolute", left:710, top: 340}}/></a>
+                      <a href = "https://www.facebook.com/ucla.swe.ewi/"><img src={fb} style={{height:50, width: 50, position:"absolute", left:710, top: 340}}/></a>
                   </div>
                   <div className="special_events">
-                      <img src={sleep} className="special_event_pics" style={{position:"absolute", left:640, top:470}}/>
+                      <img src={wesp} className="special_event_pics" style={{position:"absolute", left:560, top:300, width: 800, height: 550}}/>
                       <p style={{position:"absolute", fontWeight:"bold", left: 10, top:500, width:500}}>WOMEN IN ENGINEERING STAYOVER PROGRAM</p>
                       <p style={{position:"absolute", left: 10, top:570, width: 570}}> Women in Engineering Stayover Program (WESP) hosts newly admitted female engineering students to show them all our school as to offer. This event includes tours of the engineering department, dinner with UCLA faculty, an exciting scavenger hunt, and much more! </p>
                       <div className="calendarthing" style={{top:770, left: 10,  width:35, height: 5, backgroundColor:"#933DD7"}}></div>
@@ -78,7 +93,7 @@ export default class events extends React.Component {
                   </div>
                   <img src={gear} style={{position:"absolute", left:1200, top: 2250, height:60, width:65}}/>
                   <div className="special_events">
-                      <img src={sleep} className="special_event_pics" style={{position:"absolute", top:1810, left:-10}}/>
+                      <img src={epec} className="special_event_pics" style={{position:"absolute", top:1700, left:-80, width: 700, height:460}}/>
                       <p style={{position:"absolute", fontWeight:"bold", left: 640, top:1810, width:500}}>ENGINEERS FOR PROFESSIONAL EQUALITY CONFERENCE</p>
                       <p style={{position:"absolute", left: 640, top:1910, width: 570}}>The Engineers for Professional Inclusion Conference is a conference highlighting diversity across the engineering workforce. This year, we will further embrace the intersectionality of individuals in STEM through hosting a keynote speaker and panel of professionals who will speak on their experiences in academia and the workforce.  </p>
                       <div className="calendarthing" style={{top:2140, left: 640,  width:35, height: 5, backgroundColor:"#933DD7"}}></div>
@@ -89,6 +104,21 @@ export default class events extends React.Component {
                       <a href = "https://www.facebook.com/uclaswe"><img src={fb} style={{height:50, width: 50, position:"absolute", left:710, top: 2140}}/></a>
                   </div>
               </div>
+              <div>
+                	<img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:3200, paddingBottom:0}}/> 
+                	<img src={dot} style={{position:"absolute", left:120, top:3250, width:2, height:200}}/> 
+                	<a href="#about-us" style={{position:"absolute", top:3240, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a> 
+                	<a href="#involved" style={{position:"absolute", top:3290, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a> 
+                	<a href="#events" style={{position:"absolute", top:3340, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a> 
+                	<a href="#sponsors" style={{position:"absolute", top:3390, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a> 
+                
+                	<a href = "https://www.facebook.com/uclaswe"><img src={facebook} style={{height:110, width: 105, top:3300, position:"absolute", left:500}}/></a> 
+            		 <a href = "https://www.instagram.com/swe_ucla/?hl=en"><img src={insta} style={{height:110, width: 105, top:3300, position:"absolute", left:650}}/></a> 
+               		 <a href = "https://twitter.com/swe_ucla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src={twitter} style={{height:110, width: 105, top:3300, position:"absolute", left:800}}/></a>
+
+                	<a href="#involved" style={{position:"absolute", top:3250, left:1050, width:200}} class="foot-button">Email us at swe@seas.ucla.edu</a>
+                	<a href="#involved" style={{position:"absolute", top:3350, left:1010, width:300}} class="foot-button">DM us on Facebook for quick inquiries</a>
+            	</div>
           </div>
       )
     }

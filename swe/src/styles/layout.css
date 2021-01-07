@@ -2,7 +2,7 @@
 .body {
   display: flex;
   padding-left: 120px;
-  padding-top: 150px; 
+  padding-top: 60px;
 }
 
 /*-----------------------LANDING CSS------------------------*/
@@ -10,6 +10,7 @@
   position: absolute;
   width: 720px;
   height: 423px;
+  top: 165px;
 }
 
 .big_heading {
@@ -17,6 +18,7 @@
   width: 572px;
   height: 450px;
   left: 860px;
+  top: 140px;
 
   font-family: Mulish;
   font-style: normal;
@@ -32,7 +34,7 @@
   width: 510px;
   height: 90px;
   left: 860px;
-  top: 490px;
+  top: 500px;
 
   font-family: Mulish;
   font-style: normal;
@@ -48,7 +50,7 @@
   width: 50px;
   height: 60px;
   left: 695px;
-  top: 615px;
+  top: 620px;
 }
 
 .next_header {
@@ -56,7 +58,7 @@
   width: 968px;
   height: 85px;
   left: 235px;
-  top: 640px;
+  top: 650px;
 
   font-family: Mulish;
   font-style: normal;
@@ -101,8 +103,12 @@
 .mailchimp {
   background: #fff;
   clear: left;
-  font: 14px;
+  font: 60px;
+  font-family: Mulish;
+  font-style: normal;
   width: 100%;
+  position: absolute;
+  top: 1780px;
 }
 
 /*-----------------------ABOUT US CSS------------------------*/
@@ -267,7 +273,7 @@
   outline: none !important;
   outline-offset: none !important;
 
-  font-weight:bold;
+  font-weight: bold;
   font-size: 15px;
   color: white;
 }
@@ -279,7 +285,7 @@
   display: flex;
   align-items: right;
   mask-border: 0;
-  padding-top: 150px;
+  padding-top: 200px;
   padding-right: 120px;
   padding-left: 640px;
 }
@@ -287,20 +293,20 @@
 /*-----------------------HEADER------------------------*/
 
 .header {
-  background-color: rgb(147, 61, 215,1);
+  background-color: rgb(147, 61, 215, 1);
   height: 85px;
-  width:1440
+  width: 1440;
 }
 
 .button {
-  background-color: rgb(147, 61, 215,1);
+  background-color: rgb(147, 61, 215, 1);
   border: none;
   color: white;
   padding: 28px 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  
+
   font-size: 18px;
   font-weight: bold;
   margin: 1px 1px;
@@ -309,14 +315,15 @@
 /*-----------------------FOOTER------------------------*/
 
 .foot-button {
-  background-color: rgb(147, 61, 215,1);
+  background-color: rgb(147, 61, 215, 1);
   border: none;
   color: white;
   padding: 15px 16px;
+  padding-bottom: 0px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  
+
   font-size: 25px;
   font-weight: bold;
 }
