@@ -13,8 +13,7 @@
 ## In case you are missing dependencies...
 > Below are how to install all the dependencies we used.
 ```
-npm i react-router-dom
-npm install react-markdown
+npm install react-router-dom
 npm install react-mailchimp-form
 ```
 
