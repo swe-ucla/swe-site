@@ -3,7 +3,6 @@ import "../styles/layout.css";
 import zoom from "../images/zoom.png";
 import fb from "../images/fb.png";
 import ewi from "../images/ewievent.png";
-import sleep from "../images/sleep.png";
 import qwer from "../images/qwer.png";
 import ig from "../images/ig.png";
 import gear from "../images/gear.png";
@@ -105,15 +104,15 @@ export default class events extends React.Component {
                   </div>
               </div>
               <div>
-                	<img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:3200, paddingBottom:0}}/> 
-                	<img src={dot} style={{position:"absolute", left:120, top:3250, width:2, height:200}}/> 
-                	<a href="#about-us" style={{position:"absolute", top:3240, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a> 
-                	<a href="#involved" style={{position:"absolute", top:3290, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a> 
-                	<a href="#events" style={{position:"absolute", top:3340, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a> 
-                	<a href="#sponsors" style={{position:"absolute", top:3390, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a> 
-                
-                	<a href = "https://www.facebook.com/uclaswe"><img src={facebook} style={{height:110, width: 105, top:3300, position:"absolute", left:500}}/></a> 
-            		 <a href = "https://www.instagram.com/swe_ucla/?hl=en"><img src={insta} style={{height:110, width: 105, top:3300, position:"absolute", left:650}}/></a> 
+                	<img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:3200, paddingBottom:0}}/>
+                	<img src={dot} style={{position:"absolute", left:120, top:3250, width:2, height:200}}/>
+                	<a href="#about-us" style={{position:"absolute", top:3240, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a>
+                	<a href="#involved" style={{position:"absolute", top:3290, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a>
+                	<a href="#events" style={{position:"absolute", top:3340, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a>
+                	<a href="#sponsors" style={{position:"absolute", top:3390, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a>
+
+                	<a href = "https://www.facebook.com/uclaswe"><img src={facebook} style={{height:110, width: 105, top:3300, position:"absolute", left:500}}/></a>
+            		 <a href = "https://www.instagram.com/swe_ucla/?hl=en"><img src={insta} style={{height:110, width: 105, top:3300, position:"absolute", left:650}}/></a>
                		 <a href = "https://twitter.com/swe_ucla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src={twitter} style={{height:110, width: 105, top:3300, position:"absolute", left:800}}/></a>
 
                 	<a href="#involved" style={{position:"absolute", top:3250, left:1050, width:200}} class="foot-button">Email us at swe@seas.ucla.edu</a>

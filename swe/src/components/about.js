@@ -36,9 +36,9 @@ import twitter from "../images/foot-twitter.png";
 export default class about extends React.Component {
     constructor(props) {
         super(props);
-        this.state = { 
-            cards: [{image: isabel, names: "ISABEL KETNER", position: "President", info: "Computer Engineering", year: "4th Year"}, 
-        {image: sharvani, names: "SHARVANI JHA", position: "External Vice President", info: "Computer Science", year: "4th Year"}, 
+        this.state = {
+            cards: [{image: isabel, names: "ISABEL KETNER", position: "President", info: "Computer Engineering", year: "4th Year"},
+        {image: sharvani, names: "SHARVANI JHA", position: "External Vice President", info: "Computer Science", year: "4th Year"},
         {image: maddy, names: "MADDY WESTERGAARD", position: "Internal Vice President", info: "Computer Science", year: "4th Year"},
         {image: simran, names: "SIMRAN PARKHE", position: "Internal Vice President", info: "Computer Engineering", year: "3rd Year"},
         {image: spurthi, names: "SPURTHI RALLIPALLI", position: "Advocacy Director", info: "Computer Science", year: "3rd Year"},
@@ -55,7 +55,7 @@ export default class about extends React.Component {
         {image: rithika, names: "RITHIKA SRINIVASAN", position: "Technical Director", info: "Computer Science", year: "3rd Year"},
         {image: kellyn, names: "KELLY NGUYEN", position: "Treasurer", info: "Mechanical Engineering", year: "3rd Year"} ,
         {image: christina, names: "CHRISTINA TONG", position: "Webmaster", info: "Computer Science & Engineering" , year: "2nd Year"}]
-      } 
+      }
     }
 
     tempHandler = () => {
@@ -66,7 +66,7 @@ export default class about extends React.Component {
 
     renderCards = (card, index) => {
         return(
-            <div className="officer_img"> 
+            <div className="officer_img">
                 <img style={{height: 200, width: 160, padding:0}} src={card.image}/>
                 <p className="card_info" style={{fontWeight: "bold"}}>{card.names}</p>
                 <p className="card_info" style={{width: 147}}>{card.position}</p>
@@ -79,7 +79,7 @@ export default class about extends React.Component {
     render() {
         return(
             <div className="body">
-                <div> 
+                <div>
                     <img className="blob" src={blob}/>
                     <p className="big_heading" style={{height: 543, left:120, top: 90, fontSize: 120, width: 650}}> You're in for something SWE-et.</p>
                 </div>
@@ -103,22 +103,22 @@ export default class about extends React.Component {
                         <img className="numbers" src={numbers}/>
                         <div className="national">
                             <p > Go to the national SWE website </p>
-                            <a href="www.swe.org" style={{fontWeight:"normal"}}>www.swe.org </a> 
-                            <p style={{fontWeight:"normal"}}> Hover on Membership 
+                            <a href="www.swe.org" style={{fontWeight:"normal"}}>www.swe.org </a>
+                            <p style={{fontWeight:"normal"}}> Hover on Membership
                                 <p>Click Join/Renew </p>
                              </p>
                         </div>
                         <div className="national" style={{top:2435}}>
                             <p> Choose a package {"\n"}
-                             <p style={{fontWeight:"normal"}}> New Collegiate Membership in SWE: $20 (1 year membership) 
+                             <p style={{fontWeight:"normal"}}> New Collegiate Membership in SWE: $20 (1 year membership)
                                 <p>Collegiate to Career Membership in SWE: $50 (Entire collegiate career membership!)</p>
                              </p>
                             </p>
                         </div>
                         <div className="national" style={{top:2595}}>
                             <p> Confirm your registration {"\n"}
-                             <p style={{fontWeight:"normal"}}> 
-                                Confirm your registration with our SWE secretary. 
+                             <p style={{fontWeight:"normal"}}>
+                                Confirm your registration with our SWE secretary.
                                 <p>
                                 Email the SWE Secretary at secretary.swe.ucla@gmail.com to confirm your registration (please attach a copy of your receipt)
                                 </p>
@@ -128,15 +128,15 @@ export default class about extends React.Component {
                     </div>
                 </div>
                 <div>
-                	<img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2900, paddingBottom:0}}/> 
-                	<img src={dot} style={{position:"absolute", left:120, top:2950, width:2, height:200}}/> 
-                	<a href="#about-us" style={{position:"absolute", top:2940, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a> 
-                	<a href="#involved" style={{position:"absolute", top:2990, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a> 
-                	<a href="#events" style={{position:"absolute", top:3040, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a> 
-                	<a href="#sponsors" style={{position:"absolute", top:3090, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a> 
-                
-                	<a href = "https://www.facebook.com/uclaswe"><img src={facebook} style={{height:110, width: 105, top:3000, position:"absolute", left:500}}/></a> 
-            		 <a href = "https://www.instagram.com/swe_ucla/?hl=en"><img src={insta} style={{height:110, width: 105, top:3000, position:"absolute", left:650}}/></a> 
+                	<img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2900, paddingBottom:0}}/>
+                	<img src={dot} style={{position:"absolute", left:120, top:2950, width:2, height:200}}/>
+                	<a href="#about-us" style={{position:"absolute", top:2940, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a>
+                	<a href="#involved" style={{position:"absolute", top:2990, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a>
+                	<a href="#events" style={{position:"absolute", top:3040, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a>
+                	<a href="#sponsors" style={{position:"absolute", top:3090, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a>
+
+                	<a href = "https://www.facebook.com/uclaswe"><img src={facebook} style={{height:110, width: 105, top:3000, position:"absolute", left:500}}/></a>
+            		 <a href = "https://www.instagram.com/swe_ucla/?hl=en"><img src={insta} style={{height:110, width: 105, top:3000, position:"absolute", left:650}}/></a>
                		 <a href = "https://twitter.com/swe_ucla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src={twitter} style={{height:110, width: 105, top:3000, position:"absolute", left:800}}/></a>
 
                 	<a href="#involved" style={{position:"absolute", top:2950, left:1050, width:200}} class="foot-button">Email us at swe@seas.ucla.edu</a>
