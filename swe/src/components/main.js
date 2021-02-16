@@ -17,13 +17,12 @@ const Main = () => {
             <Route exact path="/" component={Landing}></Route>
             <Route exact path="/about-us" component={About}></Route>
             <Route exact path="/events" component={Events}></Route>
-            <Route exact path="/member-portal" component={Portal}></Route>
+            <Route exact path="/portal" component={Portal}></Route>
             <Route exact path="/sponsors" component={Sponsors}></Route>
             <Route exact path="/involved" component={Involved}></Route>
           </Switch>
       </div>
     );
   };
-  
+
   export default Main;
-  
