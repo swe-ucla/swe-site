@@ -25,10 +25,13 @@ export default class landing extends React.Component {
             top: 0
         })
 	}
-	
+
     render() {
       return (
         <div className="body">
+			<Helmet>
+                    <title> SWE UCLA | Home</title>
+                </Helmet>
             <div style={{alignItems:"center"}}>
                 <img className="front_image" src={frontimage}/>
                 <div className="big_heading">
@@ -55,7 +58,7 @@ export default class landing extends React.Component {
                 </div>
                 <div>
                     <img className="pics" style={{left: 570, top: 837}} src={blue}/>
-                    <img className="pics" style={{left: 552}} src={wow}/>  
+                    <img className="pics" style={{left: 552}} src={wow}/>
                     <p className="subtitle" style={{left: 552, top: 1200, width: 351, lineHeight:1.4}}>
                         Get involved with SWE-UCLA by joining a committee, where you will develop important event planning, technical, and leadership skills while making life long friendships.
                     </p>
@@ -96,7 +99,7 @@ export default class landing extends React.Component {
             					type: 'email',
 								required: true,
 							  }]}
-							  
+
 							  messages = {{
 								  sending: "Sending...",
 								  success: "Thank you for subscribing!",
@@ -105,24 +108,24 @@ export default class landing extends React.Component {
 								  duplicate: "Too many subscribe attempts for this email address",
 								  button: "Subscribe"
 								}}
-							
+
 							  styles = {{
 								  fontSize: 90,
-								  
+
 							  }}
         				/>
 					</div>
 				</div>
 				<div>
-                	<img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2050, bottom:0}}/> 
-                	<img src={dot} style={{position:"absolute", left:120, top:2100, width:2, height:200}}/> 
-                	<a href="#about-us" style={{position:"absolute", top:2090, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a> 
-                	<a href="#involved" style={{position:"absolute", top:2140, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a> 
-                	<a href="#events" style={{position:"absolute", top:2190, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a> 
-                	<a href="#sponsors" style={{position:"absolute", top:2240, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a> 
-                
-                	<a href = "https://www.facebook.com/uclaswe"><img src={facebook} style={{height:110, width: 105, top:2150, position:"absolute", left:500}}/></a> 
-            		 <a href = "https://www.instagram.com/swe_ucla/?hl=en"><img src={insta} style={{height:110, width: 105, top:2150, position:"absolute", left:650}}/></a> 
+                	<img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2050, bottom:0}}/>
+                	<img src={dot} style={{position:"absolute", left:120, top:2100, width:2, height:200}}/>
+                	<a href="#about-us" style={{position:"absolute", top:2090, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a>
+                	<a href="#involved" style={{position:"absolute", top:2140, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a>
+                	<a href="#events" style={{position:"absolute", top:2190, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a>
+                	<a href="#sponsors" style={{position:"absolute", top:2240, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a>
+
+                	<a href = "https://www.facebook.com/uclaswe"><img src={facebook} style={{height:110, width: 105, top:2150, position:"absolute", left:500}}/></a>
+            		 <a href = "https://www.instagram.com/swe_ucla/?hl=en"><img src={insta} style={{height:110, width: 105, top:2150, position:"absolute", left:650}}/></a>
                		 <a href = "https://twitter.com/swe_ucla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src={twitter} style={{height:110, width: 105, top:2150, position:"absolute", left:800}}/></a>
 
                 	<a href="#involved" style={{position:"absolute", top:2100, left:1050, width:200}} class="foot-button">Email us at swe@seas.ucla.edu</a>

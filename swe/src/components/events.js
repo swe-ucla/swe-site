@@ -27,6 +27,9 @@ export default class events extends React.Component {
     render() {
       return (
           <div className="body">
+              <Helmet>
+                    <title> SWE UCLA | Events</title>
+                </Helmet>
               <p className="next_header" style={{top: 120, left: 0, paddingLeft: 320, paddingRight: 320, fontSize:45, lineHeight:1.3, width:800}}>
                   Our events are open to anyone and any major. Hope to see you there!
               </p>

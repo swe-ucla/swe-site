@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/layout.css";
+import { Helmet } from 'react-helmet';
 
 import sponsor_im from "../images/sponsors_professional.png";
 import diamond from "../images/diamond_trophy.png";
@@ -37,10 +38,13 @@ export default class sponsors extends React.Component {
             top: 0
         })
     }
-    
+
     render() {
       return (
         <div className="body">
+            <Helmet>
+                    <title> SWE UCLA | Sponsors</title>
+                </Helmet>
             <p className="next_header" style={{top: 120, left: 0, paddingLeft: 320, paddingRight: 320, fontSize:45, lineHeight:1.3, width:800}}>
                 A big thank you to all our sponsors for making what we do possible.
             </p>
@@ -51,7 +55,7 @@ export default class sponsors extends React.Component {
                 <div style={{top: 420, width: 400, position:"absolute", fontSize:34, fontWeight:"bold", lineHeight:1.3, left:850}}> Interested in supporting SWE-UCLA?</div>
                 <p className="subtitle" style={{height:90, top: 520, left:850, width:410}}>SWE would like to thank you for your interest in being the driving force for women to excel as both engineers and leaders. Your company can help us reach our goals through monetary support, donation, supplies, and volunteering.</p>
             </div>
-            
+
             <img style={{position: "absolute", top: 900, left: 660, width: 200, height: 150}} src = {diamond}/>
                 <img style={{position: "absolute", top: 1070, left: 380, width: 250, height: 150}} src = {L3communications}/>
                 <img style={{position: "absolute", top: 1070, left: 640, width: 550, height: 150}} src = {northrop}/>
@@ -72,17 +76,17 @@ export default class sponsors extends React.Component {
             <img style={{position: "absolute", top: 2450, left: 650, width: 200, height: 130}} src = {bronze}/>
                 <img style={{position: "absolute", top: 2600, left: 450, width: 330, height: 100}} src = {kiewit}/>
                 <img style={{position: "absolute", top: 2575, left: 835, width: 120, height: 150}} src = {infinite}/>
-            
+
             <div>
-                <img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2800, paddingBottom:0}}/> 
-                <img src={dot} style={{position:"absolute", left:120, top:2850, width:2, height:200}}/> 
-                <a href="#about-us" style={{position:"absolute", top:2840, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a> 
-                <a href="#involved" style={{position:"absolute", top:2890, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a> 
-                <a href="#events" style={{position:"absolute", top:2940, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a> 
-                <a href="#sponsors" style={{position:"absolute", top:2990, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a> 
-                
-                <a href = "https://www.facebook.com/uclaswe"><img src={fb} style={{height:110, width: 105, top:2900, position:"absolute", left:500}}/></a> 
-                <a href = "https://www.instagram.com/swe_ucla/?hl=en"><img src={insta} style={{height:110, width: 105, top:2900, position:"absolute", left:650}}/></a> 
+                <img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2800, paddingBottom:0}}/>
+                <img src={dot} style={{position:"absolute", left:120, top:2850, width:2, height:200}}/>
+                <a href="#about-us" style={{position:"absolute", top:2840, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a>
+                <a href="#involved" style={{position:"absolute", top:2890, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a>
+                <a href="#events" style={{position:"absolute", top:2940, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a>
+                <a href="#sponsors" style={{position:"absolute", top:2990, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a>
+
+                <a href = "https://www.facebook.com/uclaswe"><img src={fb} style={{height:110, width: 105, top:2900, position:"absolute", left:500}}/></a>
+                <a href = "https://www.instagram.com/swe_ucla/?hl=en"><img src={insta} style={{height:110, width: 105, top:2900, position:"absolute", left:650}}/></a>
                 <a href = "https://twitter.com/swe_ucla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src={twitter} style={{height:110, width: 105, top:2900, position:"absolute", left:800}}/></a>
 
                 <a href="#involved" style={{position:"absolute", top:2850, left:1050, width:200}} class="foot-button">Email us at swe@seas.ucla.edu</a>

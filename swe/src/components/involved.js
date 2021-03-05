@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/layout.css";
+import { Helmet } from 'react-helmet';
 
 import committee from "../images/committee-pictures.png";
 import adv from "../images/advocacy.jpg";
@@ -73,6 +74,9 @@ export default class involved extends React.Component {
     render() {
       return (
         <div className="body">
+            <Helmet>
+                    <title> SWE UCLA | Get Involved</title>
+                </Helmet>
             <p className="next_header" style={{top: 120, left: 0, paddingLeft: 320, paddingRight: 320, fontSize:45, lineHeight:1.3, width:800}}>
                 Get involved by joining a SWE family or a committee!
             </p>
@@ -145,7 +149,7 @@ export default class involved extends React.Component {
                 <p style={{position:"absolute", left: 500, top:2840, width: 680}}>Every year, we host our flagship event, WOW! That's Engineering Day. Additionally, we hold the Women in Engineering Stayover Program(WESP) where we host newly admitted female engineering students to show them all our school as to offer. We also have other smaller events throughout the year! </p>
             </div>
 
-            <div> 
+            <div>
                 <p style={{position:"absolute", fontWeight:"bold", fontSize:38, left: 140, top:4000, width:480}}>SWE FAMILIES</p>
                 <img src={blob} style={{position:"absolute", left:0, top:4150, width:1350, height:500, paddingBottom:100}}/>
                 <img src={family} style={{position:"absolute", left:140, top:4130, width:555, height:465}}/>
@@ -160,7 +164,7 @@ export default class involved extends React.Component {
                 <a href="#involved" style={{position:"absolute", top:4890, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a>
                 <a href="#events" style={{position:"absolute", top:4940, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a>
                 <a href="#sponsors" style={{position:"absolute", top:4990, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a>
-                
+
                 <a href = "https://www.facebook.com/uclaswe"><img src={fb} style={{height:110, width: 105, top:4900, position:"absolute", left:500}}/></a>
                 <a href = "https://www.instagram.com/swe_ucla/?hl=en"><img src={insta} style={{height:110, width: 105, top:4900, position:"absolute", left:650}}/></a>
                 <a href = "https://twitter.com/swe_ucla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src={twitter} style={{height:110, width: 105, top:4900, position:"absolute", left:800}}/></a>

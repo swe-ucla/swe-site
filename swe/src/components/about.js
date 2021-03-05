@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/layout.css";
+import { Helmet } from 'react-helmet';
 import ilooklikeanengineer from "../images/ilooklikeanengineer.png";
 import blob from "../images/blue-blob.png";
 import dotted from "../images/dotted-line.png";
@@ -79,6 +80,9 @@ export default class about extends React.Component {
     render() {
         return(
             <div className="body">
+                <Helmet>
+                    <title> SWE UCLA | About</title>
+                </Helmet>
                 <div>
                     <img className="blob" src={blob}/>
                     <p className="big_heading" style={{height: 543, left:120, top: 90, fontSize: 120, width: 650}}> You're in for something SWE-et.</p>
