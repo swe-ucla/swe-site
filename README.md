@@ -15,6 +15,7 @@
 ```
 npm install react-router-dom
 npm install react-mailchimp-form
+npm install --save react-helmet
 ```
 
 ## Useful Resources
