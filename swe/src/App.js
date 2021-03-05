@@ -1,13 +1,13 @@
 import React from "react";
 import Main from "./components/main";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter basename="/swe-site">
         <Main />
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
