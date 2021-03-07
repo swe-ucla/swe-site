@@ -10,7 +10,7 @@ export default class portal extends React.Component {
                     <title> SWE UCLA | Member Portal</title>
                 </Helmet>
               <p className="next_header" style={{top: 120, fontSize:45, lineHeight:1.3}}>
-                  Our member portal is still under development. Check back later :)
+                  Our portal is under construction :D
               </p>
           </div>
       )
