@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/layout.css";
+import { Helmet } from 'react-helmet';
 import zoom from "../images/zoom.png";
 import fb from "../images/fb.png";
 import ewi from "../images/ewievent.png";
@@ -35,12 +36,12 @@ export default class events extends React.Component {
               </p>
               <div className="event_caption">
                 <div style={{paddingTop:220, width: 300, position:"absolute", left:120}}> UPCOMING EVENT</div>
-                <div style={{color: "#933DD7", position:"absolute",fontSize:38, fontWeight:"bold", paddingTop:290, width: 300, left: 120}}> Winter GM </div>
-                <div style= {{paddingTop:360, lineHeight:1.4, width:550, position:"absolute", left:120}}> SWE's General Meeting for Winter Quarter will be Thursday of Week 1 (1/7) from 6-8PM on <a href="https://tinyurl.com/swe-gen2020">Zoom</a>. Come to get to know other people in SWE and hear about what our organization has accomplished in Fall Quarter and what we're planning for Winter Quarter. </div>
+                <div style={{color: "#933DD7", position:"absolute",fontSize:38, fontWeight:"bold", paddingTop:290, width: 300, left: 120}}> Fall GM </div>
+                <div style= {{paddingTop:360, lineHeight:1.4, width:550, position:"absolute", left:120}}> SWE's General Meeting for Fall Quarter will be Thursday of Week 1 (9/30) from 6-8PM at Young Hall CS24. Come to get to know other people in SWE and hear about what our organization has accomplished this past year and what we're planning for Fall Quarter.</div>
                 <iframe src="https://www.google.com/calendar/embed?src=m980q306mg3rfvuh7jhm43fr5s%40group.calendar.google.com&amp;ctz=America/Los_Angeles" className="gcal-events"></iframe>
                 <div className="calendarthing" style={{top:667, height: 20, backgroundColor:"#933DD7"}}></div>
                 <div className="calendarthing" style={{top:667}}>
-                    <p style={{fontSize:19, fontWeight:"bold", lineHeight:0, display:"flex", justifyContent:"center", color:"white"}}>JAN 7</p>
+                    <p style={{fontSize:18, fontWeight:"bold", lineHeight:0, display:"flex", justifyContent:"center", color:"white"}}>SEP</p>
                     <p style={{fontSize:19, fontWeight:"bold", lineHeight:0.7, display:"flex", justifyContent:"center", paddingTop:10}}>6 PM </p>
                 </div>
                 <a href = "https://www.facebook.com/uclaswe"><img src={fb} style={{height:85, width: 85, paddingTop: 515, position:"absolute", left:225}}/></a>

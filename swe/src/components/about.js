@@ -26,6 +26,13 @@ import jackie from "../images/officers/image 53.png";
 import rithika from "../images/officers/image 54.png";
 import kellyn from "../images/officers/image 55.png";
 import christina from "../images/officers/image 56.png";
+import alyssa from "../images/officers/image 57.jpg";
+import karen from "../images/officers/image 58.jpeg";
+import luming from "../images/officers/image 59.jpeg";
+import vaughn from "../images/officers/image 60.jpg";
+import christinek from "../images/officers/image 70.jpeg";
+import divya from "../images/officers/image 71.jpeg";
+import leila from "../images/officers/image 72.jpeg";
 
 import footer from "../images/footer.png";
 import dot from "../images/dot-line.png";
@@ -38,24 +45,24 @@ export default class about extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            cards: [{image: isabel, names: "ISABEL KETNER", position: "President", info: "Computer Engineering", year: "4th Year"},
-        {image: sharvani, names: "SHARVANI JHA", position: "External Vice President", info: "Computer Science", year: "4th Year"},
-        {image: maddy, names: "MADDY WESTERGAARD", position: "Internal Vice President", info: "Computer Science", year: "4th Year"},
-        {image: simran, names: "SIMRAN PARKHE", position: "Internal Vice President", info: "Computer Engineering", year: "3rd Year"},
-        {image: spurthi, names: "SPURTHI RALLIPALLI", position: "Advocacy Director", info: "Computer Science", year: "3rd Year"},
-        {image: allison, names: "ALLISON CHEN", position: "EWI External Co-Chair", info: "Computer Science", year: "3rd Year"},
-        {image: annie, names: "ANNIE CHEN", position: "EWI Internal Co-Chair", info: "Materials Science & Engineering" , year: "3rd Year"},
-        {image: kelly, names: "KELLY CHENG", position: "Historian", info: "Computer Science & Engineering", year: "4th Year"},
-        {image: christine, names: "CHRISTINE YANG", position: "Outreach External Director", info: "Mechanical Engineering", year: "2nd Year"},
-        {image: hannah, names: "HANNAH WANG", position: "Outreach Logistics Director", info: "Materials Science & Engineering", year: "2nd Year"},
-        {image: jessica, names: "JESSICA CHEN", position: "Publicity", info: "Computational & Systems Biology" , year: "3rd Year"},
-        {image: morgan, names: "MORGAN KOPECKY", position: "Mentorship Director", info: "Computer Science & Engineering", year: "2nd Year"},
-        {image: eunice, names: "EUNICE KAN", position: "Recruitment & Alumni Relations Director", info: "Mechanical Engineering", year: "4th Year"},
-        {image: heidi, names: "HEIDI KWON", position: "Secretary", info: "Mechanical Engineering", year: "3rd Year"},
-        {image: jackie, names: "JACKIE SUN", position: "Student Relations Director", info: "Computational & Systems Biology", year: "3rd Year"},
-        {image: rithika, names: "RITHIKA SRINIVASAN", position: "Technical Director", info: "Computer Science", year: "3rd Year"},
-        {image: kellyn, names: "KELLY NGUYEN", position: "Treasurer", info: "Mechanical Engineering", year: "3rd Year"} ,
-        {image: christina, names: "CHRISTINA TONG", position: "Webmaster", info: "Computer Science & Engineering" , year: "2nd Year"}]
+            cards: [{image: annie, names: "ANNIE ZHAO", position: "President", info: "Materials Engineering", year: "4th Year"},
+        {image: rithika, names: "RITHIKA SRINIVASAN", position: "External Vice President", info: "Computer Science", year: "4th Year"},
+        {image: allison, names: "ALLISON CHEN", position: "Internal Vice President", info: "Computer Science", year: "4th Year"},
+        {image: alyssa, names: "ALYSSA SCHIMM", position: "Advocacy Director", info: "Computer Science and Engineering", year: "4th Year"},
+        {image: jackie, names: "JACKLYN SUN", position: "EWI External Co-Chair", info: "Computational & Systems Biology", year: "4th Year"},
+        {image: leila, names: "LEILA SALEM", position: "EWI Internal Co-Chair", info: "Aerospace Engineering" , year: "4th Year"},
+        {image: karen, names: "KAREN SU", position: "Historian", info: "Mechanical Engineering", year: "2nd Year"},
+        {image: christine, names: "CHRISTINE YANG", position: "Outreach External Director", info: "Mechanical Engineering", year: "3rd Year"},
+        {image: hannah, names: "HANNAH WANG", position: "Outreach Logistics Director", info: "Materials Science & Engineering", year: "3rd Year"},
+        {image: jessica, names: "JESSICA CHEN", position: "Publicity", info: "Computational & Systems Biology" , year: "4th Year"},
+        {image: morgan, names: "MORGAN KOPECKY", position: "Mentorship Director", info: "Mechanical Engineering", year: "3rd Year"},
+        {image: heidi, names: "HEIDI KWONG", position: "Recruitment & Alumni Relations Director", info: "Mechanical Engineering", year: "4th Year"},
+        {image: luming, names: "LUMING CAO", position: "Secretary", info: "Mechanical Engineering", year: "2nd Year"},
+        {image: spurthi, names: "SPURTHI RALLAPALLI", position: "Student Relations Director", info: "Computer Science", year: "4th Year"},
+        {image: vaughn, names: "VAUGHN CHU", position: "Technical Internal Director", info: "Electrical Engineering", year: "2nd Year"},
+        {image: christinek, names: "CHRISTINE KIM", position: "Technical External Director", info: "Computer Science", year: "2nd Year"},
+        {image: kellyn, names: "KELLY NGUYEN", position: "Treasurer", info: "Mechanical Engineering", year: "4th Year"} ,
+        {image: divya, names: "DIVYA PONNIAH", position: "Webmaster", info: "Computer Science" , year: "3rd Year"}]
       }
     }
 

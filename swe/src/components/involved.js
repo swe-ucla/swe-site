@@ -4,7 +4,8 @@ import { Helmet } from 'react-helmet';
 
 import committee from "../images/committee-pictures.png";
 import adv from "../images/advocacy.jpg";
-import ewi from "../images/ewi-comm.JPG";
+// import ewi from "../images/ewi-comm.JPG";
+import ewi from "../images/int.jpg";
 import int from "../images/int.jpg";
 import mentorship from "../images/mentorship.jpg";
 import wesp from "../images/wesp.jpg";
