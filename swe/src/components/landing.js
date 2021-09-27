@@ -1,6 +1,7 @@
 import React from "react";
 import Mailchimp from "react-mailchimp-form";
 import "../styles/layout.css";
+import { Helmet } from 'react-helmet';
 import frontimage from "../images/frontimage.png";
 import arrow from "../images/arrow.png";
 import eng6 from "../images/eng6.jpg";
@@ -11,6 +12,7 @@ import zoom from "../images/zoom.png";
 import fb from "../images/fb.png";
 import loop from "../images/loopdeloop.png";
 import plane from "../images/plane.png";
+import youtube from "../images/officers/youtube.png";
 
 import footer from "../images/footer.png";
 import dot from "../images/dot-line.png";
@@ -75,15 +77,15 @@ export default class landing extends React.Component {
                 <div className="body">
 					<div className="event_caption">
                 	<div style={{position: "absolute",fontSize:34, top:1540, left: 120, fontWeight:"bold"}}> Upcoming Event</div>
-                	<div style={{color: "#933DD7", position:"absolute",fontSize:38, fontWeight:"bold", top:1620, width: 300, left: 120}}> Winter GM </div>
-                	<div style= {{top:1690, lineHeight:1.4, width:550, position:"absolute", left:120}}> SWE's General Meeting for Winter Quarter will be Thursday of Week 1 (1/7) from 6-8PM on <a href="https://tinyurl.com/swe-gen2020">Zoom</a>. Come to get to know other people in SWE and hear about what our organization has accomplished in Fall Quarter and what we're planning for Winter Quarter. </div>
+                	<div style={{color: "#933DD7", position:"absolute",fontSize:38, fontWeight:"bold", top:1620, width: 300, left: 120}}> Fall GM </div>
+                	<div style= {{top:1690, lineHeight:1.4, width:550, position:"absolute", left:120}}> SWE's General Meeting for Fall Quarter will be Thursday of Week 1 (9/30) from 6-8PM in Young Hall CS24. Come to get to know other people in SWE and hear about what our organization has accomplished this past year and what we're planning for Fall Quarter. </div>
                 	<div className="calendarthing" style={{top:1850, height: 20, backgroundColor:"#933DD7"}}></div>
                 	<div className="calendarthing" style={{top:1850}}>
-                    	<p style={{fontSize:19, fontWeight:"bold", lineHeight:0, display:"flex", justifyContent:"center", color:"white"}}>JAN 7</p>
+                    	<p style={{fontSize:18, fontWeight:"bold", lineHeight:0, display:"flex", justifyContent:"center", color:"white"}}>SEP 30</p>
                     	<p style={{fontSize:19, fontWeight:"bold", lineHeight:0.7, display:"flex", justifyContent:"center", paddingTop:10}}>6 PM </p>
                 	</div>
-                	<a href = "https://www.facebook.com/uclaswe"><img src={fb} style={{height:85, width: 85, top:1850, position:"absolute", left:225}}/></a>
-                	<a href="https://tinyurl.com/swe-gen2020"><img src={zoom} style={{height:85, width: 85, top:1850, position:"absolute", left:330}}/></a>
+                	<a href = "https://fb.me/e/YAF6QJ8M"><img src={fb} style={{height:85, width: 85, top:1850, position:"absolute", left:225}}/></a>
+                	<a href="https://www.youtube.com/watch?v=fR2adYWwMhU"><img src={zoom} style={{height:85, width: 85, top:1850, position:"absolute", left:330}}/></a>
               		</div>
                 </div>
 				<div className="body">
