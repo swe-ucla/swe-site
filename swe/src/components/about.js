@@ -14,7 +14,7 @@ import maddy from "../images/officers/image 41.png";
 import simran from "../images/officers/image 42.png";
 import spurthi from "../images/officers/image 43.png";
 import allison from "../images/officers/image 44.png";
-import annie from "../images/officers/image 45.png";
+import annie from "../images/officers/image 73.jpeg";
 import kelly from "../images/officers/image 46.png";
 import christine from "../images/officers/image 47.png";
 import hannah from "../images/officers/image 48.png";
