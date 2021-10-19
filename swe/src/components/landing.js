@@ -78,7 +78,7 @@ export default class landing extends React.Component {
 					<div className="event_caption">
                 	<div style={{position: "absolute",fontSize:34, top:1540, left: 120, fontWeight:"bold"}}> Upcoming Event</div>
                 	<div style={{color: "#933DD7", position:"absolute",fontSize:38, fontWeight:"bold", top:1620, width: 300, left: 120}}> Fall GM </div>
-                	<div style= {{top:1690, lineHeight:1.4, width:550, position:"absolute", left:120}}> SWE's General Meeting for Fall Quarter will be Thursday of Week 1 (9/30) from 6-8PM in Young Hall CS24. Come to get to know other people in SWE and hear about what our organization has accomplished this past year and what we're planning for Fall Quarter. </div>
+                	<div style= {{top:1690, lineHeight:1.4, width:550, position:"absolute", left:120}}> SWE's General Meeting for Fall Quarter will be Thursday of Week 1 (9/30) from 6-8PM in Young Hall CS24. Come to get to know other people in SWE and hear about what our organization has accomplished this past year and what we're planning for Fall Quarter! </div>
                 	<div className="calendarthing" style={{top:1850, height: 20, backgroundColor:"#933DD7"}}></div>
                 	<div className="calendarthing" style={{top:1850}}>
                     	<p style={{fontSize:18, fontWeight:"bold", lineHeight:0, display:"flex", justifyContent:"center", color:"white"}}>SEP 30</p>
