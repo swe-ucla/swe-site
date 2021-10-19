@@ -116,7 +116,7 @@ export default class events extends React.Component {
                 	<a href="#sponsors" style={{position:"absolute", top:3390, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a>
 
                 	<a href = "https://www.facebook.com/swe.ucla"><img src={facebook} style={{height:110, width: 105, top:3300, position:"absolute", left:500}}/></a>
-            		 <a href = "https://www.instagram.com/swe_ucla/?hl=en"><img src={insta} style={{height:110, width: 105, top:3300, position:"absolute", left:650}}/></a>
+            		 <a href = "https://www.instagram.com/swe.ucla"><img src={insta} style={{height:110, width: 105, top:3300, position:"absolute", left:650}}/></a>
                		 <a href = "https://twitter.com/swe_ucla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src={twitter} style={{height:110, width: 105, top:3300, position:"absolute", left:800}}/></a>
 
                 	<a href="#involved" style={{position:"absolute", top:3250, left:1050, width:200}} class="foot-button">Email us at swe@seas.ucla.edu</a>
