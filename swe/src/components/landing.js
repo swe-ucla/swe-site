@@ -128,7 +128,7 @@ export default class landing extends React.Component {
 
                 	<a href = "https://www.facebook.com/swe.ucla"><img src={facebook} style={{height:110, width: 105, top:2150, position:"absolute", left:500}}/></a>
             		 <a href = "https://www.instagram.com/swe.ucla"><img src={insta} style={{height:110, width: 105, top:2150, position:"absolute", left:650}}/></a>
-               		 <a href = "https://twitter.com/swe_ucla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src={twitter} style={{height:110, width: 105, top:2150, position:"absolute", left:800}}/></a>
+               		 <a href = "https://twitter.com/swe_ucla?lang=en"><img src={twitter} style={{height:110, width: 105, top:2150, position:"absolute", left:800}}/></a>
 
                 	<a href="#involved" style={{position:"absolute", top:2100, left:1050, width:200}} class="foot-button">Email us at swe@seas.ucla.edu</a>
                 	<a href="#involved" style={{position:"absolute", top:2200, left:1010, width:300}} class="foot-button">DM us on Facebook for quick inquiries</a>
