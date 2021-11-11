@@ -276,6 +276,10 @@
   font-weight: bold;
   font-size: 15px;
   color: white;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
 .gcal-events {
@@ -293,9 +297,13 @@
 /*-----------------------HEADER------------------------*/
 
 .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 30px;
   background-color: rgb(147, 61, 215, 1);
   height: 85px;
-  width: 1440;
+  width: 100%;
 }
 
 .button {
