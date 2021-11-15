@@ -40,7 +40,7 @@ export default class landing extends React.Component {
                     Aspire. Advance. Achieve.
                 </div>
                 <div className="subtitle">
-                    Welcome to SWE at UCLA. SWE-UCLA aims to promote diversity and professional development opportunities to the UCLA engineering community.
+                    Welcome to SWE at UCLA! SWE-UCLA aims to promote diversity and professional development opportunities to the UCLA engineering community.
                 </div>
             </div>
             <div>
