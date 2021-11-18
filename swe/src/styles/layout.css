@@ -303,7 +303,7 @@
   gap: 30px;
   background-color: rgb(147, 61, 215, 1);
   height: 85px;
-  width: 100%;
+  width: 100vw;
 }
 
 .button {
@@ -318,6 +318,22 @@
   font-size: 18px;
   font-weight: bold;
   margin: 1px 1px;
+  visibility: visible;
+}
+
+.invisible-button {
+  background-color: rgb(147, 61, 215, 1);
+  border: none;
+  color: white;
+  padding: 28px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  font-size: 18px;
+  font-weight: bold;
+  margin: 1px 1px;
+  visibility: collapse;
 }
 
 /*-----------------------FOOTER------------------------*/
