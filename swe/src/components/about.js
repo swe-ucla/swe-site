@@ -29,10 +29,11 @@ import christina from "../images/officers/image 56.png";
 import alyssa from "../images/officers/image 57.jpg";
 import karen from "../images/officers/image 58.jpeg";
 import luming from "../images/officers/image 59.jpeg";
-import vaughn from "../images/officers/image 60.jpg";
 import christinek from "../images/officers/image 70.jpeg";
 import divya from "../images/officers/image 71.jpeg";
 import leila from "../images/officers/image 72.jpeg";
+import ivy from "../images/officers/image 74.jpg";
+
 
 import footer from "../images/footer.png";
 import dot from "../images/dot-line.png";
@@ -59,10 +60,10 @@ export default class about extends React.Component {
             { image: heidi, names: "HEIDI KWONG", position: "Recruitment & Alumni Relations Director", info: "Mechanical Engineering", year: "4th Year" },
             { image: luming, names: "LUMING CAO", position: "Secretary", info: "Mechanical Engineering", year: "2nd Year" },
             { image: spurthi, names: "SPURTHI RALLAPALLI", position: "Student Relations Director", info: "Computer Science", year: "4th Year" },
-            { image: vaughn, names: "VAUGHN CHU", position: "Technical Internal Director", info: "Electrical Engineering", year: "2nd Year" },
             { image: christinek, names: "CHRISTINE KIM", position: "Technical External Director", info: "Computer Science", year: "2nd Year" },
             { image: kellyn, names: "KELLY NGUYEN", position: "Treasurer", info: "Mechanical Engineering", year: "4th Year" },
-            { image: divya, names: "DIVYA PONNIAH", position: "Webmaster", info: "Computer Science", year: "3rd Year" }]
+            { image: divya, names: "DIVYA PONNIAH", position: "Webmaster", info: "Computer Science", year: "3rd Year" },
+            { image: ivy, names: "IVY KWOK", position: "GradeSWE President", info: "Environmental Engineering", year: "2nd Year - PhD" }]
         }
     }
 
