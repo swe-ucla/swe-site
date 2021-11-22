@@ -77,7 +77,7 @@ export default class sponsors extends React.Component {
                 <img style={{position: "absolute", top: 2600, left: 450, width: 330, height: 100}} src = {kiewit}/>
                 <img style={{position: "absolute", top: 2575, left: 835, width: 120, height: 150}} src = {infinite}/>
 
-            <div>
+            {/* <div>
                 <img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2800, paddingBottom:0}}/>
                 <img src={dot} style={{position:"absolute", left:120, top:2850, width:2, height:200}}/>
                 <a href="#about-us" style={{position:"absolute", top:2840, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a>
@@ -91,7 +91,7 @@ export default class sponsors extends React.Component {
 
                 <a href="#involved" style={{position:"absolute", top:2850, left:1050, width:200}} class="foot-button">Email us at swe@seas.ucla.edu</a>
                 <a href="#involved" style={{position:"absolute", top:2950, left:1010, width:300}} class="foot-button">DM us on Facebook for quick inquiries</a>
-            </div>
+            </div> */}
 
         </div>
       )

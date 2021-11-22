@@ -15,7 +15,7 @@ export default class footer1 extends React.Component {
         <div className="footer1">
         <img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2050, bottom:0}}/>
         <img src={dot} style={{position:"absolute", left:120, top:2100, width:2, height:200}}/>
-        <a href="#about-us"  class="foot-button">About Us</a>    //style={{position:"absolute", top:2090, left:170, width:120}} onClick={() => {this.tempHandler()}}
+        <a href="#about-us" style={{position:"absolute", top:2090, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a>   
         <a href="#involved" style={{position:"absolute", top:2140, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a>
         <a href="#events" style={{position:"absolute", top:2190, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a>
         <a href="#sponsors" style={{position:"absolute", top:2240, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a>

@@ -1,5 +1,6 @@
 import React from "react";
-import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
+import {Route, BrowserRouter as Router } from "react-router-dom";
+import {Switch} from "react-router";
 import Landing from "./landing";
 import About from "./about";
 import Events from "./events";
@@ -7,7 +8,7 @@ import Portal from "./portal";
 import Sponsors from "./sponsors";
 import Involved from "./involved"
 import Header from "./header";
-
+import Footer1 from "./footer";
 const Main = () => {
     return (
       <div>
@@ -21,6 +22,7 @@ const Main = () => {
             <Route exact path="/sponsors" component={Sponsors}></Route>
             <Route exact path="/involved" component={Involved}></Route>
           </Switch>
+          <Footer1/>
       </div>
     );
   };

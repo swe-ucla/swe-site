@@ -118,7 +118,7 @@ export default class landing extends React.Component {
         				/>
 					</div>
 				</div>
-				<div>
+				{/* <div>
                 	<img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2050, bottom:0}}/>
                 	<img src={dot} style={{position:"absolute", left:120, top:2100, width:2, height:200}}/>
                 	<a href="#about-us" style={{position:"absolute", top:2090, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a>
@@ -132,7 +132,7 @@ export default class landing extends React.Component {
 
                 	<a href="#involved" style={{position:"absolute", top:2100, left:1050, width:200}} class="foot-button">Email us at swe@seas.ucla.edu</a>
                 	<a href="#involved" style={{position:"absolute", top:2200, left:1010, width:300}} class="foot-button">DM us on Facebook for quick inquiries</a>
-            	</div>
+            	</div> */}
             </div>
         </div>
       )

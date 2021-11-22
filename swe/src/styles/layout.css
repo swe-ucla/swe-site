@@ -317,7 +317,9 @@
 .footer1
 {
   background-color: rgb(147, 61, 215, 1);
- 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .foot-button {
   background-color: rgb(147, 61, 215, 1);
@@ -329,9 +331,7 @@
   text-decoration: none;
   display: inline-block;
  
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+
   
   font-size: 25px;
   font-weight: bold;

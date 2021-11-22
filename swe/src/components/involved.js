@@ -158,7 +158,7 @@ export default class involved extends React.Component {
                 <p style={{position:"absolute", lineheight:1, fontSize:19, left: 740, top:4310, width:415}}>SWE welcomes all ages, genders, and majors to participate in SWE Families, a program that matches SWE members together for fun social events and bonding throughout the year.</p>
             </div>
 
-            <div>
+            {/* <div>
                 <img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:4800, paddingBottom:0}}/>
                 <img src={dot} style={{position:"absolute", left:120, top:4850, width:2, height:200}}/>
                 <a href="#about-us" style={{position:"absolute", top:4840, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a>
@@ -172,7 +172,7 @@ export default class involved extends React.Component {
 
                 <a href="#involved" style={{position:"absolute", top:4850, left:1050, width:200}} class="foot-button">Email us at swe@seas.ucla.edu</a>
                 <a href="#involved" style={{position:"absolute", top:4950, left:1010, width:300}} class="foot-button">DM us on Facebook for quick inquiries</a>
-            </div>
+            </div> */}
         </div>
       )
     }
