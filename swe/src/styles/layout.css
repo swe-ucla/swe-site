@@ -314,16 +314,25 @@
 
 /*-----------------------FOOTER------------------------*/
 
+.footer1
+{
+  background-color: rgb(147, 61, 215, 1);
+ 
+}
 .foot-button {
   background-color: rgb(147, 61, 215, 1);
   border: none;
   color: white;
-  padding: 15px 16px;
+  padding: 15px 16px; 
   padding-bottom: 0px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
   font-size: 25px;
   font-weight: bold;
 }
