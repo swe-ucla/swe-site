@@ -33,7 +33,7 @@ import vaughn from "../images/officers/image 60.jpg";
 import christinek from "../images/officers/image 70.jpeg";
 import divya from "../images/officers/image 71.jpeg";
 import leila from "../images/officers/image 72.jpeg";
-
+import footer1 from "./footer";
 import footer from "../images/footer.png";
 import dot from "../images/dot-line.png";
 
@@ -87,6 +87,7 @@ export default class about extends React.Component {
     render() {
         return (
             <div className="body">
+              
                 <Helmet>
                     <title> SWE UCLA | About</title>
                 </Helmet>
@@ -153,6 +154,7 @@ export default class about extends React.Component {
                     <a href="#involved" style={{ position: "absolute", top: 2950, left: 1050, width: 200 }} class="foot-button">Email us at swe@seas.ucla.edu</a>
                     <a href="#involved" style={{ position: "absolute", top: 3050, left: 1010, width: 300 }} class="foot-button">DM us on Facebook for quick inquiries</a>
                 </div> */}
+                
             </div>
         )
     }
