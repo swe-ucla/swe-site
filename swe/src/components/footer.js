@@ -13,9 +13,30 @@ export default class footer1 extends React.Component {
     render() {
       return (
         <div className="footer1">
-        <img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2050, bottom:0}}/>
-        <img src={dot} style={{position:"absolute", left:120, top:2100, width:2, height:200}}/>
-        <a href="#about-us" style={{position:"absolute", top:2090, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a>   
+        {/* <img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2050, bottom:0}}/>
+        <img src={dot} style={{position:"absolute", left:120, top:2100, width:2, height:200}}/> */}
+        <img src={footer} className="committee_event_pics" />
+        <img src={dot} />
+
+         <div className="footer15"> 
+        <a href="#about-us" onClick={() => {this.tempHandler()}} class="foot-button">About Us</a> 
+        <a href="#involved" onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a>
+        <a href="#events" onClick={() => {this.tempHandler()}} class="foot-button">Events</a>
+        <a href="#sponsors" onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a>
+        </div>
+
+        <div className="footer2">
+        <a href = "https://www.facebook.com/swe.ucla"><img src={facebook} class="foot-button"/></a>
+        <a href = "https://www.instagram.com/swe.ucla"><img src={insta} class="foot-button" /></a>
+        <a href = "https://twitter.com/swe_ucla?lang=en"><img src={twitter} class="foot-button"/></a>
+        </div>
+
+        <div className="rightdm">
+        <a href="#involved" class="foot-button">Email us at swe@seas.ucla.edu</a>
+        <a href="#involved" class="foot-button">DM us on Facebook for quick inquiries</a> 
+        </div>
+
+        {/* <a href="#about-us" style={{position:"absolute", top:2090, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">About Us</a> 
         <a href="#involved" style={{position:"absolute", top:2140, left:170, width:150}} onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a>
         <a href="#events" style={{position:"absolute", top:2190, left:155, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Events</a>
         <a href="#sponsors" style={{position:"absolute", top:2240, left:170, width:120}} onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a>
@@ -25,7 +46,8 @@ export default class footer1 extends React.Component {
         <a href = "https://twitter.com/swe_ucla?lang=en"><img src={twitter} style={{height:110, width: 105, top:2150, position:"absolute", left:800}}/></a>
 
         <a href="#involved" style={{position:"absolute", top:2100, left:1050, width:200}} class="foot-button">Email us at swe@seas.ucla.edu</a>
-        <a href="#involved" style={{position:"absolute", top:2200, left:1010, width:300}} class="foot-button">DM us on Facebook for quick inquiries</a>
+        <a href="#involved" style={{position:"absolute", top:2200, left:1010, width:300}} class="foot-button">DM us on Facebook for quick inquiries</a>  */}
+        
     </div>
                      
               )

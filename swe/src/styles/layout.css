@@ -263,6 +263,7 @@
 .committee_event_pics {
   width: 450px;
   height: 300px;
+  display: flex;
 }
 
 .form_button {
@@ -318,21 +319,42 @@
 {
   background-color: rgb(147, 61, 215, 1);
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  width:100vw;
+  
+
 }
+ .footer15
+{
+  flex-direction: column;
+  justify-content: center;
+  flex:1;
+
+} 
 .foot-button {
-  background-color: rgb(147, 61, 215, 1);
+   background-color: rgb(147, 61, 215, 1);
   border: none;
   color: white;
   padding: 15px 16px; 
   padding-bottom: 0px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
- 
-
-  
+  display: inline-block; 
   font-size: 25px;
   font-weight: bold;
+  flex:1; 
+  
 }
+ .footer2
+{
+  justify-content: center;
+  flex-direction: row;
+  flex:1;
+
+}
+
+.rightdm {
+  justify-content: center;
+  flex-direction: column;
+  flex:1;
+} 
+
