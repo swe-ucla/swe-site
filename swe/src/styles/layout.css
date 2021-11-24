@@ -1,9 +1,11 @@
 /*-----------------------GENERAL CSS------------------------*/
-.body {
+ .body {
   display: flex;
   padding-left: 120px;
   padding-top: 60px;
-}
+}  
+
+
 
 /*-----------------------LANDING CSS------------------------*/
 .front_image {
@@ -316,27 +318,25 @@
 /*-----------------------FOOTER------------------------*/
 .footergen
 {
-  position:relative;
-  min-height:100vw; 
+  display:relative;
+  
+  
 }
-.contentwrap
-{
-  position: absolute;
-}
+
+
 .footer1
 {
   background-color: rgb(147, 61, 215, 1);
-  display: flex; 
   width: 100vw;
-  position: absolute; 
-  bottom:0; 
+  display: flex;  
+  bottom:0;  
+  justify-content: center;
 
 }
  .footer15
 {
   display:flex;
   flex-direction: column;
-  justify-content: center;
   flex:1;
 
 } 
@@ -345,12 +345,11 @@
   background-color: rgb(147, 61, 215, 1);
   border: none;
   color: white;
-   padding: 15px 16px; 
-  padding-bottom: 0px; 
+
   text-align: center;
   text-decoration: none;
   display: inline-block; 
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   flex:1; 
 
@@ -360,7 +359,7 @@
  .footer2
 {
   display:flex;
-  justify-content: center;
+
   flex-direction: row;
   flex:1;
 
@@ -368,7 +367,7 @@
 
 .rightdm {
   display:flex;
-  justify-content: center;
+ 
   flex-direction: column;
   flex:1;
 } 

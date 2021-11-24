@@ -40,6 +40,7 @@ import dot from "../images/dot-line.png";
 import facebook from "../images/foot-fb.png";
 import insta from "../images/foot-insta.png";
 import twitter from "../images/foot-twitter.png";
+import Footer1 from "./footer";
 
 export default class about extends React.Component {
     constructor(props) {
@@ -137,8 +138,19 @@ export default class about extends React.Component {
                                 </p>
                             </p>
                         </div>
+            
+                        
+                        
+
                     </div>
                 </div>
+
+               
+               
+             {/* <div className = "footergen"> 
+                <Footer1/>
+                   </div>  */}
+
                 {/* <div>
                     <img src={footer} className="committee_event_pics" style={{ position: "absolute", left: 0, width: 1440, top: 2900, paddingBottom: 0 }} />
                     <img src={dot} style={{ position: "absolute", left: 120, top: 2950, width: 2, height: 200 }} />
@@ -156,6 +168,7 @@ export default class about extends React.Component {
                 </div> */}
                 
             </div>
+           
         )
     }
 }

@@ -12,8 +12,9 @@ import Footer1 from "./footer";
 const Main = () => {
     return (
       <div>  
+        
         <Header />
-       
+      
           <Switch>
             {/* The Switch decides which component to show based on the current URL.*/}
             <Route exact path="/" component={Landing}></Route>
@@ -23,12 +24,14 @@ const Main = () => {
             <Route exact path="/sponsors" component={Sponsors}></Route>
             <Route exact path="/involved" component={Involved}></Route>
           </Switch>
-          {/* <div className="footergen">
-          <div className="contentwrap">*/}
-           <div className="footergen">
+       
+   
+         
+     <div className = "footergen">
          <Footer1/> 
          </div>
         
+       
        </div> 
       
     );

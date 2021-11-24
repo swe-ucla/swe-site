@@ -10,6 +10,12 @@ import twitter from "../images/foot-twitter.png";
 import facebook from "../images/foot-fb.png";
 export default class footer1 extends React.Component {
 
+  tempHandler = () => {
+    window.scrollTo({
+        top: 0
+    })
+  }
+
     render() {
       return (
      
@@ -17,7 +23,7 @@ export default class footer1 extends React.Component {
         {/* <img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2050, bottom:0}}/>
         <img src={dot} style={{position:"absolute", left:120, top:2100, width:2, height:200}}/> */}
         {/* <img src={footer} className="committee_event_pics" />
-        <img src={dot} /> */}
+        <img src={dot} />   */}
 
             <div className="footer15"> 
                 <a href="#about-us" onClick={() => {this.tempHandler()}} class="foot-button">About Us</a> 
@@ -51,7 +57,9 @@ export default class footer1 extends React.Component {
         
    
     </div>
-                     
+    
+    
+             
               )
             }
 

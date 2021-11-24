@@ -17,7 +17,7 @@ import dot from "../images/dot-line.png";
 import facebook from "../images/foot-fb.png";
 import insta from "../images/foot-insta.png";
 import twitter from "../images/foot-twitter.png";
-
+import Footer1 from "./footer";
 export default class events extends React.Component {
     tempHandler = () => {
         window.scrollTo({
@@ -107,6 +107,7 @@ export default class events extends React.Component {
                       <a href = "https://www.facebook.com/uclaswe"><img src={fb} style={{height:50, width: 50, position:"absolute", left:710, top: 2140}}/></a>
                   </div>
               </div>
+           
               {/* <div>
                 	<img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:3200, paddingBottom:0}}/>
                 	<img src={dot} style={{position:"absolute", left:120, top:3250, width:2, height:200}}/>
