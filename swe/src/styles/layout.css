@@ -331,6 +331,7 @@
   display: flex;  
   bottom:0;  
   justify-content: center;
+  padding: 50px 50px 50px 50px;
 
 }
  .footer15
@@ -340,6 +341,11 @@
   flex:1;
 
 } 
+
+.foot-logo
+{
+  width: 90px;
+}
 .foot-button {
   display:flex;
   background-color: rgb(147, 61, 215, 1);
@@ -356,10 +362,27 @@
 
   
 }
+.foot-left {
+  display:flex;
+  background-color: rgb(147, 61, 215, 1);
+  border: none;
+  color: white;
+
+  text-align: left;
+  text-decoration: none;
+  display: inline-block; 
+  font-size: 30px;
+  font-weight: bold;
+  flex:1;
+ 
+
+
+  
+}
  .footer2
 {
   display:flex;
-
+  justify-content: center;
   flex-direction: row;
   flex:1;
 
