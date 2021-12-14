@@ -5,8 +5,6 @@
   padding-top: 60px;
 }  
 
-
-
 /*-----------------------LANDING CSS------------------------*/
 .front_image {
   position: absolute;
@@ -319,8 +317,7 @@
 .footergen
 {
   display:relative;
-  
-  
+  /*margin-top: 2000px for now to see footer at bottom ish*/  
 }
 
 
@@ -331,7 +328,7 @@
   display: flex;  
   bottom:0;  
   justify-content: center;
-  padding: 50px 50px 50px 50px;
+  padding: 75px 75px 75px 75px;
 
 }
  .footer15
@@ -344,7 +341,9 @@
 
 .foot-logo
 {
-  width: 90px;
+  width: 120px;
+  padding-left: 20px;
+  padding-right:20px;
 }
 .foot-button {
   display:flex;
@@ -355,7 +354,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block; 
-  font-size: 30px;
+  font-size: 36px;
   font-weight: bold;
   flex:1; 
 
@@ -371,9 +370,10 @@
   text-align: left;
   text-decoration: none;
   display: inline-block; 
-  font-size: 30px;
+  font-size: 48px;
   font-weight: bold;
   flex:1;
+  margin-left: 100px;
  
 
 
@@ -385,7 +385,7 @@
   justify-content: center;
   flex-direction: row;
   flex:1;
-
+  align-items: center;
 }
 
 .rightdm {
