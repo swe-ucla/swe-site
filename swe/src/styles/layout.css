@@ -317,7 +317,7 @@
 .footergen
 {
   display:relative;
-  /*margin-top: 2000px for now to see footer at bottom ish*/  
+  /*margin-top: 2000px; for now to see footer at bottom ish*/  
 }
 
 
@@ -329,14 +329,12 @@
   bottom:0;  
   justify-content: center;
   padding: 75px 75px 75px 75px;
-
 }
  .footer15
 {
   display:flex;
   flex-direction: column;
   flex:1;
-
 } 
 
 .foot-logo
@@ -345,6 +343,7 @@
   padding-left: 20px;
   padding-right:20px;
 }
+
 .foot-button {
   display:flex;
   background-color: rgb(147, 61, 215, 1);
@@ -356,11 +355,9 @@
   display: inline-block; 
   font-size: 36px;
   font-weight: bold;
-  flex:1; 
-
-
-  
+  flex:1;  
 }
+
 .foot-left {
   display:flex;
   background-color: rgb(147, 61, 215, 1);
@@ -374,11 +371,12 @@
   font-weight: bold;
   flex:1;
   margin-left: 100px;
+  margin-bottom: 15px;
  
-
-
-  
+  border-left: 5px white dashed;
+  padding-left: 56px;
 }
+
  .footer2
 {
   display:flex;
