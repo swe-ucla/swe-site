@@ -1,6 +1,6 @@
 /*-----------------------GENERAL CSS------------------------*/
 .body {
-  display: flex;
+  display: inline-block;
   padding-left: 120px;
   padding-top: 60px;
 }
@@ -250,19 +250,62 @@
 
 /*-----------------------INVOLVED------------------------*/
 
-.committee_events {
-  position: absolute;
-  top: 920px;
-  left: 140px;
-  color: black;
+.involved_buttons {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
   font-size: 19px;
   line-height: 30px;
+  color: #000000;
+  padding-left: 120;
+  width: auto;
+}
+
+.involved_header{
+  height: 85px;
   padding-bottom: 30px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.event_flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: flex-start;
+  column-gap: 200px;
+  row-gap: 50px;
+  padding-bottom: 10px;
+}
+
+.committee_events {
+  color: black;
+  font-size: 19px;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 .committee_event_pics {
-  width: 450px;
-  height: 300px;
+  width: 30vw;
+  min-width: 390px;
+}
+
+.visible_text{
+  visibility: visible;
+}
+
+.collapse_text{
+  display: none;
+  visibility: collapse;
+  
 }
 
 .form_button {
@@ -272,7 +315,8 @@
   border-radius: 15px;
   outline: none !important;
   outline-offset: none !important;
-
+  margin-top: 10px;
+  margin-right: 10px;
   font-weight: bold;
   font-size: 15px;
   color: white;
@@ -282,12 +326,8 @@
   border: 0;
   width: 550px;
   height: 400px;
-  display: flex;
-  align-items: right;
   mask-border: 0;
-  padding-top: 200px;
-  padding-right: 120px;
-  padding-left: 640px;
+  padding-right: 50px;
 }
 
 /*-----------------------HEADER------------------------*/
