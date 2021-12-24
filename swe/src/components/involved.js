@@ -113,7 +113,7 @@ export default class involved extends React.Component {
 
     render() {
       return (
-        <div style={{display: "inline-block", paddingLeft: "10vw", paddingRight: "5vw"}}>
+        <div style={{display: "inline-block", paddingLeft: "10vw", paddingRight: "2vw"}}>
             <Helmet>
                     <title> SWE UCLA | Get Involved</title>
                 </Helmet>

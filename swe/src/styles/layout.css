@@ -281,7 +281,7 @@
   flex-wrap: wrap;
   justify-content: left;
   align-items: flex-start;
-  column-gap: 200px;
+  column-gap: 10vw;
   row-gap: 50px;
   padding-bottom: 10px;
 }
@@ -324,8 +324,10 @@
 
 .gcal-events {
   border: 0;
-  width: 550px;
-  height: 400px;
+  min-width: 300px;
+  width: 40vw;
+  height: 30vw;
+  min-height: 300px;
   mask-border: 0;
   padding-right: 50px;
 }
