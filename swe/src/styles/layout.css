@@ -324,7 +324,7 @@
 .footer1
 {
   background-color: rgb(147, 61, 215, 1);
-  width: 100vw;
+  width: 100vw;  
   display: flex;  
   bottom:0;  
   justify-content: center;
@@ -349,7 +349,6 @@
   background-color: rgb(147, 61, 215, 1);
   border: none;
   color: white;
-
   text-align: center;
   text-decoration: none;
   display: inline-block; 
