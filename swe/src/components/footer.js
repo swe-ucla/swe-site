@@ -22,8 +22,8 @@ export default class footer1 extends React.Component {
         <div className="footer1">
         {/* <img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:2050, bottom:0}}/>
         <img src={dot} style={{position:"absolute", left:120, top:2100, width:2, height:200}}/> */}
-         <img src={footer} className="committee_event_pics" />
-        <img src={dot} />  
+   {/*    <img src={footer} className="committee_event_pics" /> */}
+        <img src={dot} style={{width:2, height:140}}/>  
 
             <div className="footer15"> 
                 <a href="#about-us" onClick={() => {this.tempHandler()}} class="foot-left">About Us</a> 
@@ -39,7 +39,8 @@ export default class footer1 extends React.Component {
             </div>
 
             <div className="rightdm">
-                <a href="#involved" class="foot-button">Email us at swe@seas.ucla.edu</a>
+               <a href="#involved" class="foot-button">Email us at swe@seas.ucla.edu</a> 
+          
                 <a href="#involved" class="foot-button">DM us on Facebook for quick inquiries</a> 
             </div>
 
