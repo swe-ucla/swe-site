@@ -314,13 +314,18 @@
 }
 
 /*-----------------------FOOTER------------------------*/
+
 .footergen
 {
   display: flex;
   margin-top: 2000px; /*for now to see footer at bottom ish*/  
   height: 420;
-  background-color: rgb(147, 61, 215, 1);
-  width:100vw;
+ background-color: rgb(147, 61, 215, 1);
+  
+  
+  
+  
+
   
   
 }
@@ -330,7 +335,7 @@
 {
  
   background-color: rgb(147, 61, 215, 1);
-  width: fit-content; 
+  overflow:visible;
   display: flex;  
   bottom:0;  
   align-items: center;
@@ -339,11 +344,14 @@
   padding-left: 55px;
   padding-right:55px;
   padding-bottom: 75px;
+  flex:1;
+  
   
 }
  .footer15
 {
-  justify-content: center;
+
+ justify-content: center;
   display:flex;
   flex-direction: column;
 
@@ -372,6 +380,7 @@
 }
 
 .foot-left {
+  overflow:scroll;
   /*display:flex;*/
   background-color: rgb(147, 61, 215, 1);
   border: none;
@@ -404,6 +413,7 @@
 
 .rightdm {
 
+  
   display:flex;
   flex-direction: column; 
 } 
