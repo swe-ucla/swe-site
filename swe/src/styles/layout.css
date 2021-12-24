@@ -319,7 +319,8 @@
   display: flex;
   margin-top: 2000px; /*for now to see footer at bottom ish*/  
   height: 420;
- 
+  background-color: rgb(147, 61, 215, 1);
+  width:100vw;
   
   
 }
@@ -327,8 +328,9 @@
 
 .footer1
 {
+ 
   background-color: rgb(147, 61, 215, 1);
-  width: 100vw; 
+  width: fit-content; 
   display: flex;  
   bottom:0;  
   align-items: center;
@@ -356,7 +358,7 @@
 }
 
 .foot-button {
- /* display:flex;*/
+ /*display:flex;*/
   background-color: rgb(147, 61, 215, 1);
   border: none;
   color: white;
@@ -370,7 +372,7 @@
 }
 
 .foot-left {
-  display:flex;
+  /*display:flex;*/
   background-color: rgb(147, 61, 215, 1);
   border: none;
   color: white;
@@ -401,6 +403,7 @@
 }
 
 .rightdm {
+
   display:flex;
   flex-direction: column; 
 } 
