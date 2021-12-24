@@ -26,16 +26,16 @@ export default class footer1 extends React.Component {
         <img src={dot} />  
 
             <div className="footer15"> 
-                <a href="#about-us" onClick={() => {this.tempHandler()}} class="foot-button">About Us</a> 
-                <a href="#involved" onClick={() => {this.tempHandler()}} class="foot-button">Get Involved</a>
-                <a href="#events" onClick={() => {this.tempHandler()}} class="foot-button">Events</a>
-                <a href="#sponsors" onClick={() => {this.tempHandler()}} class="foot-button">Sponsors</a>
+                <a href="#about-us" onClick={() => {this.tempHandler()}} class="foot-left">About Us</a> 
+                <a href="#involved" onClick={() => {this.tempHandler()}} class="foot-left">Get Involved</a>
+                <a href="#events" onClick={() => {this.tempHandler()}} class="foot-left">Events</a>
+                <a href="#sponsors" onClick={() => {this.tempHandler()}} class="foot-left">Sponsors</a>
             </div>
 
             <div className="footer2">
-                <a href = "https://www.facebook.com/swe.ucla"><img src={facebook} class="foot-button"/></a>
-                <a href = "https://www.instagram.com/swe.ucla"><img src={insta} class="foot-button" /></a>
-                <a href = "https://twitter.com/swe_ucla?lang=en"><img src={twitter} class="foot-button"/></a>
+                <a href = "https://www.facebook.com/swe.ucla"><img src={facebook} class="foot-logo"/></a>
+                <a href = "https://www.instagram.com/swe.ucla"><img src={insta} class="foot-logo" /></a>
+                <a href = "https://twitter.com/swe_ucla?lang=en"><img src={twitter} class="foot-logo"/></a>
             </div>
 
             <div className="rightdm">
