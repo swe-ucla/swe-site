@@ -192,19 +192,24 @@ export default class involved extends React.Component {
             <p style={{fontWeight:"bold", left: 140, top:3550, width:"100%"}}>OUTREACH</p>
             <div className="committee_events">
                 <img src={wesp} className="committee_event_pics"/>
-                <p className={this.state.rightText} style={{float: "right", marginRight: "10px", width: "50vw", fontSize: 18, marginTop: "15px"}}>The Outreach committee works to expand and improve diversity in engineering through working with students, ages ranging from elementary school to high school. Our goal is to empower underrepresented minorities in the engineering field.<br/><br/>Every year, we host our flagship event, WOW! That's Engineering Day. Additionally, we hold the Women in Engineering Stayover Program(WESP) where we host newly admitted female engineering students to show them all our school as to offer. We also have other smaller events throughout the year! </p>
+                <p className={this.state.rightText} style={{float: "right", width: "50vw", fontSize: 18, marginTop: "15px"}}>The Outreach committee works to expand and improve diversity in engineering through working with students, ages ranging from elementary school to high school. Our goal is to empower underrepresented minorities in the engineering field.<br/><br/>Every year, we host our flagship event, WOW! That's Engineering Day. Additionally, we hold the Women in Engineering Stayover Program(WESP) where we host newly admitted female engineering students to show them all our school as to offer. We also have other smaller events throughout the year! </p>
                 <p className={this.state.stackText}>The Outreach committee works to expand and improve diversity in engineering through working with students, ages ranging from elementary school to high school. Our goal is to empower underrepresented minorities in the engineering field.</p>
                 <p className={this.state.stackText}>Every year, we host our flagship event, WOW! That's Engineering Day. Additionally, we hold the Women in Engineering Stayover Program(WESP) where we host newly admitted female engineering students to show them all our school as to offer. We also have other smaller events throughout the year! </p>
             </div>
 
 
-            {/* <div>
+            <div style={{paddingTop: "10px"}}>
                 <p style={{fontWeight:"bold", fontSize:38, left: 140, width:480}}>SWE FAMILIES</p>
-                <img src={blob} style={{left:0, top: 4150, width:1350, height:500, paddingBottom:100}}/>
-                <img src={family} style={{left:140, width:555, height:465}}/>
-                <p style={{fontWeight:"bold", fontSize:32, left: 740, width:450}}>Finding a Home Within UCLA</p>
-                <p style={{lineheight:1, fontSize:19, left: 740, width:415}}>SWE welcomes all ages, genders, and majors to participate in SWE Families, a program that matches SWE members together for fun social events and bonding throughout the year.</p>
-            </div> */}
+                <img src={family} style={{left:140, width:"40vw", minWidth: "400px"}}/>
+                <div className={this.state.rightText} style={{float: "right", paddingTop: "100px"}}>
+                    <p style={{fontWeight:"bold", fontSize:32, width:450}}>Finding a Home Within UCLA</p>
+                    <p style={{lineheight:1, fontSize:19, width:415}}>SWE welcomes all ages, genders, and majors to participate in SWE Families, a program that matches SWE members together for fun social events and bonding throughout the year.</p>
+                </div>
+                <div className={this.state.stackText}>
+                    <p style={{fontWeight:"bold", fontSize:32, width:450}}>Finding a Home Within UCLA</p>
+                    <p style={{lineheight:1, fontSize:19, width:415}}>SWE welcomes all ages, genders, and majors to participate in SWE Families, a program that matches SWE members together for fun social events and bonding throughout the year.</p>
+                </div>
+            </div>
 
             {/* <div>
                 <img src={footer} className="committee_event_pics" style={{position:"absolute", left:0, width:1440, top:4800, paddingBottom:0}}/>
