@@ -7,10 +7,8 @@
 
 /*-----------------------LANDING CSS------------------------*/
 .front_image {
-  position: absolute;
-  width: 720px;
-  height: 423px;
-  top: 165px;
+  width: 650px;
+  height: 493px;
 }
 
 .big_heading {
@@ -46,8 +44,7 @@
 }
 
 .arrow {
-  position: absolute;
-  width: 50px;
+  width: 35px;
   height: 60px;
   left: 695px;
   top: 620px;
@@ -79,7 +76,6 @@
 }
 
 .pic_buttons {
-  position: absolute;
   color: white;
   font-weight: bold;
   top: 1400px;
@@ -102,13 +98,9 @@
 
 .mailchimp {
   background: #fff;
-  clear: left;
   font: 60px;
   font-family: Mulish;
   font-style: normal;
-  width: 100%;
-  position: absolute;
-  top: 1780px;
 }
 
 /*-----------------------ABOUT US CSS------------------------*/
@@ -122,7 +114,10 @@
 }
 
 .officer_grid {
-  display: grid;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+
   padding-right: 40px;
   grid-template-columns: auto auto auto auto auto auto;
   grid-row-gap: 20px;
@@ -167,10 +162,77 @@
 }
 
 /*-----------------------EVENTS CSS------------------------*/
+.event_header {
+  margin: auto;
+  width: 60%;
+  max-width: 800px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.float-container {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  max-width: 1200px;
+  padding: 10px;
+
+  border: 2px solid rgb(0, 255, 42);
+}
+
+.float-child-left {
+  width: 50%;
+  float: left;
+
+  padding-right: 70px;
+
+  border: 2px solid red;
+}
+
+.float-child-right {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  padding-left: 0px;
+
+  border: 2px solid red;
+}
+
+.float-grandchild-left {
+  width: 16%;
+  min-width: 90px;
+  float: left;
+
+  padding-right: 10px;
+  padding-bottom: 50px;
+
+  border: 2px solid red;
+}
+
+.float-new-grandchild-left {
+  width: 10%;
+  min-width: 50px;
+  float: left;
+
+  padding-right: 10px;
+  padding-bottom: 50px;
+
+  border: 2px solid red;
+}
+
 .event_caption {
   font-family: Mulish;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 19px;
   line-height: 30px;
   margin: auto;
@@ -179,8 +241,74 @@
 
   display: flex;
   align-items: left;
-  padding-left: 120;
   width: auto;
+
+  padding-top: 40px;
+}
+
+.event_caption_title {
+  font-weight: bold;
+  font-size: 38px;
+
+  color: #933dd7;
+
+  padding-left: 120;
+  padding-top: 25px;
+}
+
+.event_caption_body {
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 26px;
+
+  color: #000000;
+
+  padding-left: 120;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  min-width: 200px;
+}
+
+.event_calendar {
+  position: absolute;
+  left: 120px;
+  padding-bottom: 13px;
+  width: 75px;
+  height: 62px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #933dd7;
+}
+
+.gcal_events {
+  border: 0;
+  width: 40vw;
+  height: 30vw;
+  mask-border: 0;
+  padding-right: 50px;
+
+  max-height: 500px;
+  max-width: 600px;
+
+  min-width: 400px;
+  min-height: 300px;
+}
+
+.side_header {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 30px;
+
+  color: #000000;
+
+  display: flex;
+  align-items: left;
+  width: auto;
+
+  padding-top: 40px;
 }
 
 .gcal {
@@ -220,8 +348,8 @@
 }
 
 .special_event_pics {
-  width: 590px;
-  height: 400px;
+  min-width: 590px;
+  min-height: 400px;
 }
 
 .mailchimp {
@@ -261,7 +389,7 @@
   width: auto;
 }
 
-.involved_header{
+.involved_header {
   height: 85px;
   padding-bottom: 30px;
 
@@ -275,7 +403,7 @@
   color: #000000;
 }
 
-.event_flex{
+.event_flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -294,18 +422,18 @@
 }
 
 .committee_event_pics {
-  width: 30vw;
+  width: 576px;
   min-width: 390px;
+  max-width: 576px;
 }
 
-.visible_text{
+.visible_text {
   visibility: visible;
 }
 
-.collapse_text{
+.collapse_text {
   display: none;
   visibility: collapse;
-  
 }
 
 .form_button {
@@ -368,4 +496,84 @@
 
   font-size: 25px;
   font-weight: bold;
+}
+
+/*-----------------------FLEXIBLE EVENTS CSS------------------------*/
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  border: 2px solid rgb(0, 255, 42);
+}
+
+.flex-child-left {
+  width: 40%;
+  float: left;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 600px;
+
+  border: 2px solid red;
+}
+
+.flex-child-right {
+  width: 40%;
+  float: left;
+  padding: 20px;
+  padding-left: 0px;
+
+  border: 2px solid red;
+}
+
+.flex-grandchild-left {
+  width: 16%;
+  min-width: 90px;
+  float: left;
+
+  padding-right: 10px;
+  padding-bottom: 50px;
+
+  border: 2px solid red;
+}
+
+.flex-new-grandchild-left {
+  width: 10%;
+  min-width: 50px;
+  float: left;
+
+  padding-right: 10px;
+  padding-bottom: 50px;
+
+  border: 2px solid red;
+}
+
+.float-landing-image {
+  width: 30%;
+  float: left;
+
+  padding-right: 50px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+
+  border: 2px solid red;
+
+  max-width: 370px;
+  min-width: 350px;
+}
+
+.flex-board-image {
+  width: 10%;
+  float: left;
+
+  padding-left: 0px;
+  padding-right: 0px;
+  max-width: 600px;
+
+  flex-wrap: wrap;
+
+  border: 2px solid red;
 }
