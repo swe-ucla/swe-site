@@ -315,6 +315,25 @@ export default class involved extends React.Component {
                 </div>
             </div>
 
+            {/*GradSWE*/}
+            <div class="flex-container" style={{paddingTop:20}}>
+                <div class="flex-child-left" style={{minWidth:400}}>
+                    <div className="event_caption">GRADSWE</div>
+                </div>
+
+                <div class="flex-child-left" style={{minWidth:400}}></div>
+            </div>
+
+            <div class="flex-container" style={{paddingTop:10}}>
+                <div class="flex-child-left" style={{minWidth:576}}>
+                    <img src={wesp} className="committee_event_pics"/>
+                </div>
+
+                <div class="flex-child-left" >
+                    <div className="event_caption_body">GradSWE is a community that advocates for women graduate engineers and provides resources, tools, and opportunities for professional development and networking. Here at UCLA, our mission is to support, inspire, and empower the current and future female engineering community to excel in all endeavors, including academia, industry, and other disciplines. We aim to foster a welcoming and inclusive community through education, advocacy, and respect for all individuals. Overall, within the Bruin family and beyond, we encourage our members to become role models through leadership and mentorship opportunities, paving the way for future generations!</div>
+                </div>
+            </div>
+
             {/*<p style={{fontWeight:"bold", width: "100%"}}>ADVOCACY</p>
             <div className="committee_events">
                 <img src={adv} className="committee_event_pics"/>
