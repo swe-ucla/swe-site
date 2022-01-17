@@ -76,16 +76,16 @@ export default class landing extends React.Component {
                 </div>
                 <div className="body">
 					<div className="event_caption">
-                	<div style={{position: "absolute",fontSize:34, top:1540, left: 120, fontWeight:"bold"}}> Upcoming Event</div>
-                	<div style={{color: "#933DD7", position:"absolute",fontSize:38, fontWeight:"bold", top:1620, width: 300, left: 120}}> Fall GM </div>
-                	<div style= {{top:1690, lineHeight:1.4, width:550, position:"absolute", left:120}}> SWE's General Meeting for Fall Quarter will be Thursday of Week 1 (9/30) from 6-8PM in Young Hall CS24. Come to get to know other people in SWE and hear about what our organization has accomplished this past year and what we're planning for Fall Quarter! </div>
-                	<div className="calendarthing" style={{top:1850, height: 20, backgroundColor:"#933DD7"}}></div>
-                	<div className="calendarthing" style={{top:1850}}>
-                    	<p style={{fontSize:18, fontWeight:"bold", lineHeight:0, display:"flex", justifyContent:"center", color:"white"}}>SEP 30</p>
-                    	<p style={{fontSize:19, fontWeight:"bold", lineHeight:0.7, display:"flex", justifyContent:"center", paddingTop:10}}>6 PM </p>
+                	<div style={{position: "absolute",fontSize:34, top:1530, left: 120, fontWeight:"bold"}}> Upcoming Event</div>
+                	<div style={{color: "#933DD7", position:"absolute",fontSize:38, fontWeight:"bold", top:1590, width: 300, left: 120}}> EWI 2022 </div>
+                	<div style= {{top:1640, lineHeight:1.4, width:550, position:"absolute", left:120}}> Seeking to land that much desired internship or job position? Come join us at SWE’s 45th annual Evening with Industry and network with various companies to achieve your dreams by landing an internship or full-time position with top companies. It is a 3 part networking event starting with casual networking, continuing with a roundtable with industry representatives from a company of your choice, and ending with access to a private career fair with various companies! Everyone is welcome, and it will be held on Thursday, January 20th from 5:30-8:30 PM PT on Zoom! </div>
+                	<div className="calendarthing" style={{top:1910, height: 10, backgroundColor:"#933DD7"}}></div>
+                	<div className="calendarthing" style={{top:1910}}>
+                    	<p style={{fontSize:15, fontWeight:"bold", lineHeight:0, display:"flex", justifyContent:"center", color:"white"}}>JAN 20</p>
+                    	<p style={{fontSize:16, fontWeight:"bold", lineHeight:0.7, display:"flex", justifyContent:"center", paddingTop:10}}>5:30 PM </p>
                 	</div>
-                	<a href = "https://fb.me/e/YAF6QJ8M"><img src={fb} style={{height:85, width: 85, top:1850, position:"absolute", left:225}}/></a>
-                	<a href="https://www.youtube.com/watch?v=fR2adYWwMhU"><img src={zoom} style={{height:85, width: 85, top:1850, position:"absolute", left:330}}/></a>
+                	<a href = "https://fb.me/e/YAF6QJ8M"><img src={fb} style={{height:85, width: 85, top:1910, position:"absolute", left:225}}/></a>
+                	<a href="https://www.youtube.com/watch?v=fR2adYWwMhU"><img src={zoom} style={{height:85, width: 85, top:1910, position:"absolute", left:330}}/></a>
               		</div>
                 </div>
 				<div className="body">
