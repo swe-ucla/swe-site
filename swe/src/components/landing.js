@@ -94,28 +94,8 @@ export default class landing extends React.Component {
 					<img src={loop} style={{position:"absolute",left:760, height: 280, width: 300, top: 1620}}/>
 					<img src={plane} style={{position:"absolute",left:1040, height: 200, width: 200, top: 1745}}/>
 					<div>
-						<Mailchimp className="mailchimp" action='https://ucla.us16.list-manage.com/subscribe/post?u=577d9373840e4ffe2e76d32e1;id=e94638c22e'
-							fields={[{
-            					name: 'EMAIL',
-            					placeholder: 'christina@email.com',
-            					type: 'email',
-								required: true,
-							  }]}
-
-							  messages = {{
-								  sending: "Sending...",
-								  success: "Thank you for subscribing!",
-								  error: "An unexpected internal error has occurred.",
-								  empty: "You must write an e-mail.",
-								  duplicate: "Too many subscribe attempts for this email address",
-								  button: "Subscribe"
-								}}
-
-							  styles = {{
-								  fontSize: 90,
-
-							  }}
-        				/>
+					<a href = "https://tinyurl.com/sweucla-subscribe" className="pic_buttons" style={{ top: 1690, left:840}} onClick={() => {this.tempHandler()}}>Join Our Mailing List</a>
+			
 					</div>
 				</div>
 				<div>
