@@ -216,7 +216,7 @@ export default class about extends React.Component {
                     <a href="#events" style={{ position: "absolute", top: 3040, left: 155, width: 120 }} onClick={() => { this.tempHandler() }} class="foot-button">Events</a>
                     <a href="#sponsors" style={{ position: "absolute", top: 3090, left: 170, width: 120 }} onClick={() => { this.tempHandler() }} class="foot-button">Sponsors</a>
 
-                    <a href="https://www.facebook.com/swe.ucla"><img src={facebook} style={{ height: 110, width: 105, top: 3000, position: "absolute", left: 500 }} /></a>
+                    <a href="https://www.facebook.com/swe.ucla"><img src={facebook} style={{ left: 500 }} /></a>
                     <a href="https://www.instagram.com/swe.ucla"><img src={insta} style={{ height: 110, width: 105, top: 3000, position: "absolute", left: 650 }} /></a>
                     <a href="https://twitter.com/swe_ucla?lang=en"><img src={twitter} style={{ height: 110, width: 105, top: 3000, position: "absolute", left: 800 }} /></a>
 

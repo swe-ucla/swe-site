@@ -10,27 +10,33 @@ import silver from "../images/silver_trophy.png";
 import bronze from "../images/bronze_trophy.png";
 
 import accenture from "../images/company-logos/Accenture-new.png";
-import accenture from "../images/company-logos/eaton.png";
-import accenture from "../images/company-logos/Aerospace.png";
-import accenture from "../images/company-logos/blackrock.png";
-import arconic from "../images/company-logos/lockhead.png";
-import arconic from "../images/company-logos/OnPrem.png";
-import arconic from "../images/company-logos/TI.png";
-import arconic from "../images/company-logos/varda.png";
-import arconic from "../images/company-logos/edison.png";
-import arconic from "../images/company-logos/az.png";
-import arconic from "../images/company-logos/wt.png";
-import arconic from "../images/company-logos/qualcomm-logo.png";
-import arconic from "../images/company-logos/ecolab.png";
-import arconic from "../images/company-logos/Pimco.png";
-import arconic from "../images/company-logos/PPG.png";
-import arconic from "../images/company-logos/P66.png";
+import eaton from "../images/company-logos/eaton.png";
+import aerospace from "../images/company-logos/Aerospace.png";
+import blackrock from "../images/company-logos/blackrock.png";
+import lockheed from "../images/company-logos/lockhead.png";
+import onprem from "../images/company-logos/OnPrem.png";
+import TI from "../images/company-logos/TI.png";
+import varda from "../images/company-logos/varda.png";
+import edison from "../images/company-logos/edison.png";
+import az from "../images/company-logos/az.png";
+import wt from "../images/company-logos/wt.png";
+import qualcomm from "../images/company-logos/qualcomm-logo.png";
+import ecolab from "../images/company-logos/ecolab.webp";
+import pimco from "../images/company-logos/Pimco.png";
+import PPG from "../images/company-logos/ppg.png";
+import PP6 from "../images/company-logos/P66.png";
 import boeing from "../images/company-logos/Boeing-Logo.png";
-import boeing from "../images/company-logos/Oracle.png";
-import boeing from "../images/company-logos/esri-silver.png";
-import coinbase from "../images/company-logos/intel.png";
+import oracle from "../images/company-logos/Oracle.png";
+import esri from "../images/company-logos/esri.png";
+import intel from "../images/company-logos/intel.png";
 import sce from "../images/company-logos/southern-california-edison.png";
-
+import kpmg from "../images/company-logos/kpmg-final.png";
+import gilead from "../images/company-logos/gilead.jpeg";
+import CIA from "../images/company-logos/CIA.png";
+import northrop from "../images/company-logos/northrop.png";
+import chevron from "../images/company-logos/chevron.png";
+import zs from "../images/company-logos/zs.png";
+import cruise from "../images/company-logos/cruise.jpeg";
 import footer from "../images/footer.png";
 import dot from "../images/dot-line.png";
 
@@ -78,39 +84,47 @@ export default class sponsors extends React.Component {
               
             <div class="float-container">
                 <div className="event_header" style={{paddingTop:0}}>
-                    <img style={{width: 250, height: 150}} src = {L3communications}/>
-                    <img style={{width: 550, height: 150}} src = {northrop}/>
+                    <img style={{width: 250, height: 150}} src = {oracle}/>
+                    <img style={{width: 250, height: 120}} src = {PPG}/>
+                    <img style={{width: 300, height: 100}} src = {gilead}/>
+                    <img style={{width: 300, height: 150}} src = {CIA}/>
+                    <img style={{width: 500, height: 150}} src = {northrop}/>
                 </div>
             </div>
 
             
             <div class="float-container" style={{paddingBottom:0}}>
                 <div className="event_header" style={{paddingBottom:0}}>
-                    <img style={{width: 350, height: 200, paddingTop: 50}} src = {platinum}/>
+                    <img style={{width: 350, height: 200, paddingTop: 100}} src = {platinum}/>
                 </div>
             </div>
             
             <div class="float-container">
                 <div className="event_header" style={{paddingBottom:0, paddingTop:0}}>
-                    <img style={{width: 270, height: 100, paddingRight: 40}} src = {boeing}/>
-                    <img style={{width: 350, height: 100, paddingRight: 40}} src = {symantec}/>
-                    <img style={{width: 250, height: 100, paddingRight: 40}} src = {accenture}/>
-                    <img style={{width: 250, height: 100, paddingRight: 40}} src = {sce}/>
-                    <img style={{width: 150, height: 240, paddingRight: 40}} src = {chevron}/>
-                    <img style={{width: 175, height: 240, paddingRight: 40}} src = {FMglobal}/>
+                    <img style={{width: 180, height: 150, paddingRight: 40}} src = {boeing}/>
+                    <img style={{width: 300, height: 90, paddingRight: 40}} src = {eaton}/>
+                    <img style={{width: 230, height: 70, paddingRight: 40}} src = {accenture}/>
+                    <img style={{width: 250, height: 100, paddingRight: 40, paddingTop:20}} src = {sce}/>
+                    <img style={{width: 230, height: 170, paddingRight: 40, paddingTop:20}} src = {chevron}/>
+                    <img style={{width: 365, height: 120, paddingRight: 40}} src = {aerospace}/>
+                    <img style={{width: 265, height: 80, paddingRight: 40}} src = {onprem}/>
+                    <img style={{width: 295, height: 50, paddingRight: 40}} src = {pimco}/>
+                    <img style={{width: 395, height: 220, paddingRight: 40}} src = {qualcomm}/>
+                    <img style={{width: 155, height: 120, paddingRight: 40}} src = {wt}/>
                 </div>
             </div>
 
 
             <div class="float-container" style={{paddingBottom:0}}>
                 <div className="event_header" style={{paddingBottom:0}}>
-                    <img style={{width: 370, height: 200, paddingTop: 50}} src = {gold}/>
+                    <img style={{width: 370, height: 200, paddingTop: 100}} src = {gold}/>
                 </div>
             </div>
             
             <div class="float-container" style={{paddingTop:0}}>
                 <div className="event_header" style={{paddingBottom:0, paddingTop:0}}>
-                    <img style={{width: 270, height: 125}} src = {honey}/>
+                    <img style={{width: 440, height: 205, paddingRight: 20}} src = {lockheed}/>
+                    <img style={{width: 140, height: 145}} src = {PP6}/>
                 </div>
             </div>
 
@@ -118,30 +132,33 @@ export default class sponsors extends React.Component {
 
             <div class="float-container" style={{paddingBottom:0}}>
                 <div className="event_header" style={{paddingBottom:0}}>
-                    <img style={{width: 310, height: 200, paddingTop: 50}} src = {silver}/>
+                    <img style={{width: 310, height: 200, paddingTop: 100}} src = {silver}/>
                 </div>
             </div>
             
             <div class="float-container" style={{paddingTop:0}}>
                 <div className="event_header" style={{paddingBottom:0, paddingTop:0}}>
-                    <img style={{width: 310, height: 100, paddingRight: 40}} src = {arconic}/>
-                    <img style={{width: 110, height: 100, paddingRight: 40}} src = {facebook}/>
-                    <img style={{width: 270, height: 80, paddingRight: 40}} src = {coinbase}/>
-                    <img style={{width: 270, height: 100, paddingRight: 40}} src = {google}/>
+                    <img style={{width: 310, height: 100, paddingRight: 40}} src = {ecolab}/>
+                    <img style={{width: 230, height: 90, paddingRight: 40}} src = {esri}/>
+                    <img style={{width: 190, height: 200, paddingRight: 40}} src = {zs}/>
+                    <img style={{width: 270, height: 100, paddingRight: 40}} src = {cruise}/>
                 </div>
             </div>
 
 
             <div class="float-container" style={{paddingBottom:0}}>
                 <div className="event_header" style={{paddingBottom:0}}>
-                    <img style={{width: 340, height: 200, paddingTop: 50}} src = {bronze}/>
+                    <img style={{width: 340, height: 200, paddingTop: 100}} src = {bronze}/>
                 </div>
             </div>
             
             <div class="float-container" style={{paddingTop:0}}>
                 <div className="event_header" style={{paddingBottom:0, paddingTop:0}}>
-                    <img style={{width: 330, height: 100, paddingRight: 40}} src = {kiewit}/>
-                    <img style={{width: 120, height: 150, paddingRight: 40}} src = {infinite}/>
+                    <img style={{width: 330, height: 230, paddingRight: 40}} src = {blackrock}/>
+                    <img style={{width: 150, height: 120, paddingRight: 40}} src = {intel}/>
+                    <img style={{width: 260, height: 100, paddingRight: 40}} src = {TI}/>
+                    <img style={{width: 300, height: 130, paddingRight: 40}} src = {varda}/>
+                    <img style={{width: 250, height: 200, paddingRight: 40}} src = {kpmg}/>
                 </div>
             </div>
             
