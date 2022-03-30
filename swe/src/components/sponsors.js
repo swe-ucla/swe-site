@@ -23,7 +23,7 @@ import wt from "../images/company-logos/wt.png";
 import qualcomm from "../images/company-logos/qualcomm-logo.png";
 import ecolab from "../images/company-logos/ecolab.webp";
 import pimco from "../images/company-logos/Pimco.png";
-import PPG from "../images/company-logos/ppg.png";
+import PPG from "../images/company-logos/PPG.png";
 import PP6 from "../images/company-logos/P66.png";
 import boeing from "../images/company-logos/Boeing-Logo.png";
 import oracle from "../images/company-logos/Oracle.png";
