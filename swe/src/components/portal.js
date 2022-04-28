@@ -5,13 +5,14 @@ import { Helmet } from 'react-helmet';
 export default class portal extends React.Component {
     render() {
       return (
-          <div className="body">
+          <div>
               <Helmet>
                     <title> SWE UCLA | Member Portal</title>
                 </Helmet>
-              <p className="next_header" style={{top: 120, fontSize:45, lineHeight:1.3}}>
-                  Our portal is under construction :D
-              </p>
+
+              <div className="event_header">
+                Our portal is under construction :D
+              </div>
           </div>
       )
     }
