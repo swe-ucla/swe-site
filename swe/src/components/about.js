@@ -16,32 +16,23 @@ import national_a from "../images/national_one.png";
 import sweet from "../images/sweet_blue.png";
 import sweet_double from "../images/sweet_blue_double.png";
 
-import isabel from "../images/officers/image 39.png";
-import sharvani from "../images/officers/image 40.png";
-import maddy from "../images/officers/image 41.png";
-import simran from "../images/officers/image 42.png";
-import spurthi from "../images/officers/image 43.png";
-import allison from "../images/officers/image 44.png";
-import annie from "../images/officers/image 73.jpeg";
-import kelly from "../images/officers/image 46.png";
-import christine from "../images/officers/image 47.png";
-import hannah from "../images/officers/image 48.png";
-import jessica from "../images/officers/image 49.png";
-import morgan from "../images/officers/image 50.png";
-import eunice from "../images/officers/image 51.png";
-import heidi from "../images/officers/image 52.png";
-import jackie from "../images/officers/image 53.png";
-import rithika from "../images/officers/image 54.png";
-import kellyn from "../images/officers/image 55.png";
-import christina from "../images/officers/image 56.png";
-import alyssa from "../images/officers/image 57.jpg";
-import karen from "../images/officers/image 58.jpeg";
-import luming from "../images/officers/image 59.jpeg";
-import christinek from "../images/officers/image 70.jpeg";
-import divya from "../images/officers/image 71.jpeg";
-import leila from "../images/officers/image 72.jpeg";
-import ivy from "../images/officers/image 74.jpg";
-
+import grace from "../images/officers/image 1.png";
+import diya from "../images/officers/image 2.png";
+import lily from "../images/officers/image 3.png";
+import hannahc from "../images/officers/image 4.png";
+import christine from "../images/officers/image 5.png";
+import hannah from "../images/officers/image 6.png";
+import karen from "../images/officers/image 7.jpeg";
+import luming from "../images/officers/image 8.jpeg";
+import michelle from "../images/officers/image 9.png";
+import lilyg from "../images/officers/image 10.png";
+import nicole from "../images/officers/image 11.png";
+import lydia from "../images/officers/image 12.png";
+import divya from "../images/officers/image 13.jpeg";
+import christinek from "../images/officers/image 14.jpeg";
+import margaret from "../images/officers/image 15.png";
+import esha from "../images/officers/image 16.png";
+import megan from "../images/officers/image 17.png";
 
 import footer from "../images/footer.png";
 import dot from "../images/dot-line.png";
@@ -54,24 +45,23 @@ export default class about extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            cards: [{ image: annie, names: "ANNIE ZHAO", position: "President", info: "Materials Engineering", year: "4th Year" },
-            { image: rithika, names: "RITHIKA SRINIVASAN", position: "External Vice President", info: "Computer Science", year: "4th Year" },
-            { image: allison, names: "ALLISON CHEN", position: "Internal Vice President", info: "Computer Science", year: "4th Year" },
-            { image: alyssa, names: "ALYSSA SCHIMM", position: "Advocacy Director", info: "Computer Science and Engineering", year: "4th Year" },
-            { image: jackie, names: "JACKLYN SUN", position: "EWI External Co-Chair", info: "Computational & Systems Biology", year: "4th Year" },
-            { image: leila, names: "LEILA SALEM", position: "EWI Internal Co-Chair", info: "Aerospace Engineering", year: "4th Year" },
-            { image: karen, names: "KAREN SU", position: "Historian", info: "Mechanical Engineering", year: "2nd Year" },
-            { image: christine, names: "CHRISTINE YANG", position: "Outreach External Director", info: "Mechanical Engineering", year: "3rd Year" },
-            { image: hannah, names: "HANNAH WANG", position: "Outreach Logistics Director", info: "Materials Science & Engineering", year: "3rd Year" },
-            { image: jessica, names: "JESSICA CHEN", position: "Publicity", info: "Computational & Systems Biology", year: "4th Year" },
-            { image: morgan, names: "MORGAN KOPECKY", position: "Mentorship Director", info: "Mechanical Engineering", year: "3rd Year" },
-            { image: heidi, names: "HEIDI KWONG", position: "Recruitment & Alumni Relations Director", info: "Mechanical Engineering", year: "4th Year" },
-            { image: luming, names: "LUMING CAO", position: "Secretary", info: "Mechanical Engineering", year: "2nd Year" },
-            { image: spurthi, names: "SPURTHI RALLAPALLI", position: "Student Relations Director", info: "Computer Science", year: "4th Year" },
-            { image: christinek, names: "CHRISTINE KIM", position: "Technical External Director", info: "Computer Science", year: "2nd Year" },
-            { image: kellyn, names: "KELLY NGUYEN", position: "Treasurer", info: "Mechanical Engineering", year: "4th Year" },
-            { image: divya, names: "DIVYA PONNIAH", position: "Webmaster", info: "Computer Science", year: "3rd Year" },
-            { image: ivy, names: "IVY KWOK", position: "GradeSWE President", info: "Environmental Engineering", year: "2nd Year - PhD" }]
+            cards: [{ image: hannah, names: "HANNAH WANG", position: "President", info: "Materials Science & Engineering", year: "4th Year" },
+            { image: christine, names: "CHRISTINE YANG", position: "External Vice President", info: "Mechanical Engineering", year: "4th Year" },
+            { image: luming, names: "LUMING CAO", position: "Internal Vice President", info: "Mechanical Engineering", year: "3rd Year" },
+            { image: grace, names: "GRACE KWAK", position: "Advocacy Director", info: "[enter]", year: "[enter]" },
+            { image: karen, names: "KAREN SU", position: "EWI External Co-Chair", info: "Mechanical Engineering", year: "3rd Year" },
+            { image: diya, names: "DIYA KAPUR", position: "EWI Internal Co-Chair", info: "[enter]", year: "[enter]" },
+            { image: lily, names: "LILY TEBB", position: "Historian", info: "[enter]", year: "[enter]" },
+            { image: hannahc, names: "HANNAH COX", position: "Outreach External Director", info: "[enter]", year: "[enter]" },
+            { image: michelle, names: "MICHELLE BOGUSLAVSKY", position: "Outreach Internal Director", info: "[enter]", year: "[enter]" },
+            { image: lilyg, names: "LILY GLANTZ", position: "Publicity", info: "[enter]", year: "[enter]" },
+            { image: nicole, names: "NICOLE CRISCIONE", position: "Mentorship Director", info: "[enter]", year: "[enter]" },
+            { image: divya, names: "DIVYA PONNIAH", position: "Recruitment & Alumni Relations Director", info: "Computer Science", year: "4th Year" },
+            { image: christinek, names: "CHRISTINE KIM", position: "Student Relations Director", info: "Computer Science", year: "3rd Year" },
+            { image: margaret, names: "MARGARET CAPETZ", position: "Technical External Director", info: "Computer Science", year: "2nd Year" },
+            { image: megan, names: "MEGAN GO", position: "Webmaster", info: "Computer Science", year: "2nd Year" },
+            { image: esha, names: "ESHA SIDHU", position: "Treasurer", info: "[enter]", year: "2nd Year" },
+            { image: lydia, names: "LYDIA XU", position: "Secretary", info: "[enter]", year: "[enter]" }]
         }
     }
 
@@ -83,9 +73,9 @@ export default class about extends React.Component {
 
     renderCards = (card, index) => {
         return (
-            <div className="flex-board-image" style={{minWidth: 190, maxWidth: 190}}>
+            <div className="flex-board-image" style={{ minWidth: 190, maxWidth: 190 }}>
                 <img style={{ height: 200, width: 160, padding: 0 }} src={card.image} />
-                <div className="event_caption" style={{paddingBottom: 0, paddingLeft: 0}}>{card.names}</div>
+                <div className="event_caption" style={{ paddingBottom: 0, paddingLeft: 0 }}>{card.names}</div>
                 <p className="card_info" style={{ width: 147 }}>{card.position}</p>
                 <p className="card_info" style={{ fontSize: 14 }}>{card.info}</p>
                 <p className="card_info" style={{ fontSize: 14 }}>{card.year}</p>
@@ -101,68 +91,68 @@ export default class about extends React.Component {
                 </Helmet>
 
 
-                <div class="flex-container" style={{paddingTop:0}}>
-                    <div class="flex-child-left" style={{minWidth:600, paddingTop:0, paddingLeft:0}}>
-                        <img className="front_image" src={sweet_double} style={{height: 600, width: 600}}/>
+                <div class="flex-container" style={{ paddingTop: 0 }}>
+                    <div class="flex-child-left" style={{ minWidth: 600, paddingTop: 0, paddingLeft: 0 }}>
+                        <img className="front_image" src={sweet_double} style={{ height: 600, width: 600 }} />
                     </div>
 
-                    <div class="flex-child-left" style={{minWidth:400}}>
+                    <div class="flex-child-left" style={{ minWidth: 400 }}>
                         <img style={{ width: 430, height: 380, paddingLeft: 40, paddingTop: 20 }} src={ilooklikeanengineer} />
-                        <div className="event_caption" style={{paddingBottom: 0, paddingLeft: 40}}>OUR MISSION</div>
-                        <div className="event_caption_body" style={{paddingTop: 20, maxWidth: 470, paddingLeft: 40}}>SWE-UCLA aims to bring professional development opportunities to UCLA while advocating for the creation of an equal platform for all in engineering.</div>
+                        <div className="event_caption" style={{ paddingBottom: 0, paddingLeft: 40 }}>OUR MISSION</div>
+                        <div className="event_caption_body" style={{ paddingTop: 20, maxWidth: 470, paddingLeft: 40 }}>SWE-UCLA aims to bring professional development opportunities to UCLA while advocating for the creation of an equal platform for all in engineering.</div>
                     </div>
                 </div>
 
 
-                <div class="flex-container" style={{paddingTop:50}}>
-                    <div class="flex-child-left" style={{minWidth:400}}>
-                        <div className="side_header" style={{fontSize:34}}>
+                <div class="flex-container" style={{ paddingTop: 50 }}>
+                    <div class="flex-child-left" style={{ minWidth: 400 }}>
+                        <div className="side_header" style={{ fontSize: 34 }}>
                             Meet Our Board Members
                         </div>
                     </div>
 
-                    <div class="flex-child-left" style={{minWidth:400}}></div>
+                    <div class="flex-child-left" style={{ minWidth: 400 }}></div>
                 </div>
 
 
-                <div class="flex-container" style={{paddingTop:0}}>
-                    <div class="flex-container" style={{paddingTop:0, maxWidth: 1250, paddingLeft:0}}>
+                <div class="flex-container" style={{ paddingTop: 0 }}>
+                    <div class="flex-container" style={{ paddingTop: 0, maxWidth: 1250, paddingLeft: 0 }}>
                         <div className="officer_grid" style={{ paddingTop: 30, paddingLeft: 40 }}>{this.state.cards.map(this.renderCards)}</div>
                     </div>
                 </div>
 
 
 
-                <div class="flex-container" style={{paddingTop:50}}>
-                    <div class="flex-child-left" style={{minWidth:400}}>
-                        <div className="side_header" style={{fontSize:34}}>
+                <div class="flex-container" style={{ paddingTop: 50 }}>
+                    <div class="flex-child-left" style={{ minWidth: 400 }}>
+                        <div className="side_header" style={{ fontSize: 34 }}>
                             Join SWE National
                         </div>
                     </div>
 
-                    <div class="flex-child-left" style={{minWidth:400}}></div>
+                    <div class="flex-child-left" style={{ minWidth: 400 }}></div>
                 </div>
 
 
-                <div class="flex-container" style={{paddingTop:0}}>
-                    <div class="flex-child-left" style={{minWidth:600, paddingTop:70, paddingLeft:0}}>
-                        <img className="front_image" src={national} style={{height: 360, width: 600}}/>
-                        <div className="event_caption_body" style={{paddingTop: 40, maxWidth: 470, paddingLeft: 90, margin: "auto"}}>National members get discounts, special opportunities, and scholarships. Join today!</div>
+                <div class="flex-container" style={{ paddingTop: 0 }}>
+                    <div class="flex-child-left" style={{ minWidth: 600, paddingTop: 70, paddingLeft: 0 }}>
+                        <img className="front_image" src={national} style={{ height: 360, width: 600 }} />
+                        <div className="event_caption_body" style={{ paddingTop: 40, maxWidth: 470, paddingLeft: 90, margin: "auto" }}>National members get discounts, special opportunities, and scholarships. Join today!</div>
                     </div>
 
-                    <div class="flex-child-left" style={{minWidth:400}}>
-                        <div className="event_caption" style={{paddingLeft: 40, paddingBottom: 10}}>1. Go to the national SWE website</div>
-                        <a href="www.swe.org" style={{ fontWeight: "normal", paddingLeft: 65, fontSize:19}}>www.swe.org </a>
-                        <div className="event_caption_body" style={{paddingTop: 10, maxWidth: 470, paddingLeft: 65, paddingBottom: 10}}>Hover on membership</div>
-                        <div className="event_caption_body" style={{paddingTop: 0, maxWidth: 470, paddingLeft: 65, paddingBottom: 0}}>Click Join/Renew</div>
+                    <div class="flex-child-left" style={{ minWidth: 400 }}>
+                        <div className="event_caption" style={{ paddingLeft: 40, paddingBottom: 10 }}>1. Go to the national SWE website</div>
+                        <a href="www.swe.org" style={{ fontWeight: "normal", paddingLeft: 65, fontSize: 19 }}>www.swe.org </a>
+                        <div className="event_caption_body" style={{ paddingTop: 10, maxWidth: 470, paddingLeft: 65, paddingBottom: 10 }}>Hover on membership</div>
+                        <div className="event_caption_body" style={{ paddingTop: 0, maxWidth: 470, paddingLeft: 65, paddingBottom: 0 }}>Click Join/Renew</div>
 
-                        <div className="event_caption" style={{paddingLeft: 40, paddingBottom: 10}}>2. Choose a package</div>
-                        <div className="event_caption_body" style={{paddingTop: 10, maxWidth: 470, paddingLeft: 65, paddingBottom: 10, maxWidth: 400}}>New Collegiate Membership in SWE: $20 (1 year membership)</div>
-                        <div className="event_caption_body" style={{paddingTop: 0, maxWidth: 470, paddingLeft: 65, maxWidth: 400, paddingBottom: 0}}>Collegiate to Career Membership in SWE: $50 (Entire collegiate career membership!)</div>
+                        <div className="event_caption" style={{ paddingLeft: 40, paddingBottom: 10 }}>2. Choose a package</div>
+                        <div className="event_caption_body" style={{ paddingTop: 10, maxWidth: 470, paddingLeft: 65, paddingBottom: 10, maxWidth: 400 }}>New Collegiate Membership in SWE: $20 (1 year membership)</div>
+                        <div className="event_caption_body" style={{ paddingTop: 0, maxWidth: 470, paddingLeft: 65, maxWidth: 400, paddingBottom: 0 }}>Collegiate to Career Membership in SWE: $50 (Entire collegiate career membership!)</div>
 
-                        <div className="event_caption" style={{paddingLeft: 40, paddingBottom: 10}}>3. Confirm your registration</div>
-                        <div className="event_caption_body" style={{paddingTop: 10, maxWidth: 470, paddingLeft: 65, paddingBottom: 10, maxWidth: 400}}>Confirm your registration with our SWE secretary.</div>
-                        <div className="event_caption_body" style={{paddingTop: 0, maxWidth: 470, paddingLeft: 65, maxWidth: 400}}>Email the SWE Secretary at secretary.swe.ucla@gmail.com to confirm your registration (please attach a copy of your receipt)</div>
+                        <div className="event_caption" style={{ paddingLeft: 40, paddingBottom: 10 }}>3. Confirm your registration</div>
+                        <div className="event_caption_body" style={{ paddingTop: 10, maxWidth: 470, paddingLeft: 65, paddingBottom: 10, maxWidth: 400 }}>Confirm your registration with our SWE secretary.</div>
+                        <div className="event_caption_body" style={{ paddingTop: 0, maxWidth: 470, paddingLeft: 65, maxWidth: 400 }}>Email the SWE Secretary at secretary.swe.ucla@gmail.com to confirm your registration (please attach a copy of your receipt)</div>
                     </div>
                 </div>
 
@@ -180,7 +170,7 @@ export default class about extends React.Component {
                 </div>*/}
 
                 <div>
-                    
+
                     {/*<div>
                         <img className="numbers" src={numbers} />
                         <div className="national">
