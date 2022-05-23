@@ -45,23 +45,23 @@ export default class about extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            cards: [{ image: hannah, names: "HANNAH WANG", position: "President", info: "Materials Science & Engineering", year: "4th Year" },
-            { image: christine, names: "CHRISTINE YANG", position: "External Vice President", info: "Mechanical Engineering", year: "4th Year" },
-            { image: luming, names: "LUMING CAO", position: "Internal Vice President", info: "Mechanical Engineering", year: "3rd Year" },
-            { image: grace, names: "GRACE KWAK", position: "Advocacy Director", info: "[enter]", year: "[enter]" },
-            { image: karen, names: "KAREN SU", position: "EWI External Co-Chair", info: "Mechanical Engineering", year: "3rd Year" },
-            { image: diya, names: "DIYA KAPUR", position: "EWI Internal Co-Chair", info: "[enter]", year: "[enter]" },
+            cards: [{ image: hannah, names: "HANNAH WANG", position: "President", info: "Materials Science & Engineering", year: "3rd Year" },
+            { image: christine, names: "CHRISTINE YANG", position: "External Vice President", info: "Mechanical Engineering", year: "2nd Year" },
+            { image: luming, names: "LUMING CAO", position: "Internal Vice President", info: "Mechanical Engineering", year: "2nd Year" },
+            { image: grace, names: "GRACE KWAK", position: "Advocacy Director", info: "Electrical Engineering", year: "2nd Year" },
+            { image: karen, names: "KAREN SU", position: "EWI External Co-Chair", info: "Mechanical Engineering", year: "2nd Year" },
+            { image: diya, names: "DIYA KAPUR", position: "EWI Internal Co-Chair", info: "Chemical Engineering", year: "2nd Tear" },
             { image: lily, names: "LILY TEBB", position: "Historian", info: "[enter]", year: "[enter]" },
-            { image: hannahc, names: "HANNAH COX", position: "Outreach External Director", info: "[enter]", year: "[enter]" },
-            { image: michelle, names: "MICHELLE BOGUSLAVSKY", position: "Outreach Internal Director", info: "[enter]", year: "[enter]" },
+            { image: hannahc, names: "HANNAH COX", position: "Outreach External Director", info: "Biological Engineering", year: "2nd Year" },
+            { image: michelle, names: "MICHELLE BOGUSLAVSKY", position: "Outreach Internal Director", info: "Mechanical Engineering", year: "2nd Year" },
             { image: lilyg, names: "LILY GLANTZ", position: "Publicity", info: "[enter]", year: "[enter]" },
-            { image: nicole, names: "NICOLE CRISCIONE", position: "Mentorship Director", info: "[enter]", year: "[enter]" },
-            { image: divya, names: "DIVYA PONNIAH", position: "Recruitment & Alumni Relations Director", info: "Computer Science", year: "4th Year" },
-            { image: christinek, names: "CHRISTINE KIM", position: "Student Relations Director", info: "Computer Science", year: "3rd Year" },
-            { image: margaret, names: "MARGARET CAPETZ", position: "Technical External Director", info: "Computer Science", year: "2nd Year" },
-            { image: megan, names: "MEGAN GO", position: "Webmaster", info: "Computer Science", year: "2nd Year" },
-            { image: esha, names: "ESHA SIDHU", position: "Treasurer", info: "[enter]", year: "2nd Year" },
-            { image: lydia, names: "LYDIA XU", position: "Secretary", info: "[enter]", year: "[enter]" }]
+            { image: nicole, names: "NICOLE CRISCIONE", position: "Mentorship Director", info: "Mechanical Engineering", year: "2nd Year" },
+            { image: divya, names: "DIVYA PONNIAH", position: "Recruitment & Alumni Relations Director", info: "Computer Science", year: "3rd Year" },
+            { image: christinek, names: "CHRISTINE KIM", position: "Student Relations Director", info: "Computer Science", year: "2nd Year" },
+            { image: margaret, names: "MARGARET CAPETZ", position: "Technical External Director", info: "Computer Science", year: "1st Year" },
+            { image: megan, names: "MEGAN GO", position: "Webmaster", info: "Computer Science", year: "1st Year" },
+            { image: esha, names: "ESHA SIDHU", position: "Treasurer", info: "Computer Science", year: "1st Year" },
+            { image: lydia, names: "LYDIA XU", position: "Secretary", info: "Computer Science", year: "3rd Year" }]
         }
     }
 
